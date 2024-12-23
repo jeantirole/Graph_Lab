@@ -1,0 +1,799 @@
+MERGE (n:Tank {id: "frame_2390_tank1"}) ON CREATE SET n.status = "distant", n.frame = "frame_2390.jpg", n.time = "2024-12-23 10:43"
+MERGE (n:Tank {id: "frame_2470_tank1"}) ON CREATE SET n.status = "", n.frame = "frame_2470.jpg", n.time = "2024-12-23 11:07"
+MERGE (n:Tank {id: "frame_2620_tank1"}) ON CREATE SET n.status = "partially obscured", n.frame = "frame_2620.jpg", n.time = "2024-12-23 11:10"
+MERGE (n:Gun {id: "frame_2630_gun"}) ON CREATE SET n.frame = "frame_2630.jpg", n.time = "2024-12-23 11:13"
+MERGE (n:Soldier {id: "frame_2650_soldier1"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_2650", n.time = "2024-12-23 11:19"
+MERGE (n:Soldier {id: "frame_2650_soldier2"}) ON CREATE SET n.status = "standing", n.frame = "frame_2650", n.time = "2024-12-23 11:19"
+MERGE (n:Gun {id: "frame_2650_gun1"}) ON CREATE SET n.frame = "frame_2650", n.time = "2024-12-23 11:19"
+MERGE (n:Soldier {id: "frame_2660_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_2660.jpg", n.time = "2024-12-23 11:22"
+MERGE (n:Gun {id: "frame_2660_gun1"}) ON CREATE SET n.frame = "frame_2660.jpg", n.time = "2024-12-23 11:22"
+MERGE (n:Gun {id: "frame_2670_gun1"}) ON CREATE SET n.frame = "frame_2670.jpg", n.time = "2024-12-23 11:25"
+MERGE (n:Gun {id: "frame_2680_gun1"}) ON CREATE SET n.frame = "frame_2680.jpg", n.time = "2024-12-23 11:28"
+MERGE (n:Gun {id: "frame_2690_gun"}) ON CREATE SET n.frame = "frame_2690.jpg", n.time = "2024-12-23 11:31"
+MERGE (n:Gun {id: "frame_2700_gun1"}) ON CREATE SET n.frame = "frame_2700.jpg", n.time = "2024-12-23 11:34"
+MERGE (n:Gun {id: "frame_2710_gun1"}) ON CREATE SET n.frame = "frame_2710.jpg", n.time = "2024-12-23 11:37"
+MERGE (n:Soldier {id: "frame_2720_soldier1"}) ON CREATE SET n.status = "holding a gun", n.frame = "frame_2720.jpg", n.time = "2024-12-23 11:40"
+MERGE (n:Gun {id: "frame_2720_gun1"}) ON CREATE SET n.frame = "frame_2720.jpg", n.time = "2024-12-23 11:40"
+MERGE (n:Gun {id: "frame_2730_gun1"}) ON CREATE SET n.frame = "frame_2730.jpg", n.time = "2024-12-23 11:43"
+MERGE (n:Gun {id: "frame_2740_gun1"}) ON CREATE SET n.frame = "frame_2740.jpg", n.time = "2024-12-23 11:46"
+MERGE (n:Soldier {id: "frame_2750_soldier1"}) ON CREATE SET n.status = "running", n.frame = "frame_2750.jpg", n.time = "2024-12-23 11:49"
+MERGE (n:Soldier {id: "frame_2750_soldier2"}) ON CREATE SET n.status = "standing", n.frame = "frame_2750.jpg", n.time = "2024-12-23 11:49"
+MERGE (n:Gun {id: "frame_2750_gun1"}) ON CREATE SET n.frame = "frame_2750.jpg", n.time = "2024-12-23 11:49"
+MERGE (n:Soldier {id: "frame_2760_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_2760.jpg", n.time = "2024-12-23 11:52"
+MERGE (n:Gun {id: "frame_2760_gun1"}) ON CREATE SET n.frame = "frame_2760.jpg", n.time = "2024-12-23 11:52"
+MERGE (n:Soldier {id: "frame_2770_soldier1"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_2770.jpg", n.time = "2024-12-23 11:55"
+MERGE (n:Soldier {id: "frame_2770_soldier2"}) ON CREATE SET n.status = "standing", n.frame = "frame_2770.jpg", n.time = "2024-12-23 11:55"
+MERGE (n:Soldier {id: "frame_2780_soldier1"}) ON CREATE SET n.status = "walking", n.frame = "frame_2780.jpg", n.time = "2024-12-23 11:58"
+MERGE (n:Soldier {id: "frame_2780_soldier2"}) ON CREATE SET n.status = "walking", n.frame = "frame_2780.jpg", n.time = "2024-12-23 11:58"
+MERGE (n:Soldier {id: "frame_2790_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_2790.jpg", n.time = "2024-12-23 12:01"
+MERGE (n:Soldier {id: "frame_2790_soldier2"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_2790.jpg", n.time = "2024-12-23 12:01"
+MERGE (n:Soldier {id: "frame_2800_soldier1"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_2800.jpg", n.time = "2024-12-23 12:04"
+MERGE (n:Soldier {id: "frame_2800_soldier2"}) ON CREATE SET n.status = "standing", n.frame = "frame_2800.jpg", n.time = "2024-12-23 12:04"
+MERGE (n:Gun {id: "frame_2800_gun1"}) ON CREATE SET n.frame = "frame_2800.jpg", n.time = "2024-12-23 12:04"
+MERGE (n:Soldier {id: "frame_2810_soldier_kneeling"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_2810.jpg", n.time = "2024-12-23 12:07"
+MERGE (n:Soldier {id: "frame_2810_soldier_standing"}) ON CREATE SET n.status = "standing", n.frame = "frame_2810.jpg", n.time = "2024-12-23 12:07"
+MERGE (n:Gun {id: "frame_2810_gun_foreground"}) ON CREATE SET n.frame = "frame_2810.jpg", n.time = "2024-12-23 12:07"
+MERGE (n:Soldier {id: "frame_2820_soldier1"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_2820.jpg", n.time = "2024-12-23 12:10"
+MERGE (n:Soldier {id: "frame_2820_soldier2"}) ON CREATE SET n.status = "running", n.frame = "frame_2820.jpg", n.time = "2024-12-23 12:10"
+MERGE (n:Gun {id: "frame_2820_gun1"}) ON CREATE SET n.frame = "frame_2820.jpg", n.time = "2024-12-23 12:10"
+MERGE (n:Gun {id: "frame_2820_gun2"}) ON CREATE SET n.frame = "frame_2820.jpg", n.time = "2024-12-23 12:10"
+MERGE (n:Soldier {id: "frame_2840_soldier1"}) ON CREATE SET n.status = "moving", n.frame = "frame_2840.jpg", n.time = "2024-12-23 12:16"
+MERGE (n:Soldier {id: "frame_2840_soldier2"}) ON CREATE SET n.status = "moving", n.frame = "frame_2840.jpg", n.time = "2024-12-23 12:16"
+MERGE (n:Soldier {id: "frame_2850_soldier1"}) ON CREATE SET n.status = "closer to the viewer", n.frame = "frame_2850.jpg", n.time = "2024-12-23 12:19"
+MERGE (n:Soldier {id: "frame_2850_soldier2"}) ON CREATE SET n.status = "on road", n.frame = "frame_2850.jpg", n.time = "2024-12-23 12:19"
+MERGE (n:Gun {id: "frame_2850_gun1"}) ON CREATE SET n.frame = "frame_2850.jpg", n.time = "2024-12-23 12:19"
+MERGE (n:Soldier {id: "frame_2860_uniqueSoldier"}) ON CREATE SET n.status = "on the ground", n.frame = "frame_2860.jpg", n.time = "2024-12-23 12:22"
+MERGE (n:Soldier {id: "frame_2870_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_2870.jpg", n.time = "2024-12-23 12:25"
+MERGE (n:Gun {id: "frame_2870_gun1"}) ON CREATE SET n.frame = "frame_2870.jpg", n.time = "2024-12-23 12:25"
+MERGE (n:Soldier {id: "frame_2880_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_2880.jpg", n.time = "2024-12-23 12:28"
+MERGE (n:Gun {id: "frame_2880_gun1"}) ON CREATE SET n.frame = "frame_2880.jpg", n.time = "2024-12-23 12:28"
+MERGE (n:Soldier {id: "frame2890_soldier1"}) ON CREATE SET n.status = "moving", n.frame = "frame_2890.jpg", n.time = "2024-12-23 12:31"
+MERGE (n:Soldier {id: "frame2890_soldier2"}) ON CREATE SET n.status = "moving", n.frame = "frame_2890.jpg", n.time = "2024-12-23 12:31"
+MERGE (n:Gun {id: "frame2890_gun1"}) ON CREATE SET n.frame = "frame_2890.jpg", n.time = "2024-12-23 12:31"
+MERGE (n:Gun {id: "frame2890_gun2"}) ON CREATE SET n.frame = "frame_2890.jpg", n.time = "2024-12-23 12:31"
+MERGE (n:Soldier {id: "frame2900_soldier1"}) ON CREATE SET n.status = "on the ground", n.frame = "frame_2900.jpg", n.time = "2024-12-23 12:34"
+MERGE (n:Soldier {id: "frame2900_soldier2"}) ON CREATE SET n.status = "on the ground", n.frame = "frame_2900.jpg", n.time = "2024-12-23 12:34"
+MERGE (n:Soldier {id: "frame_2910_soldier1"}) ON CREATE SET n.status = "running", n.frame = "frame_2910", n.time = "2024-12-23 12:37"
+MERGE (n:Soldier {id: "frame_2910_soldier2"}) ON CREATE SET n.status = "running", n.frame = "frame_2910", n.time = "2024-12-23 12:37"
+MERGE (n:Soldier {id: "frame_2930_soldier1"}) ON CREATE SET n.status = "running", n.frame = "frame_2930.jpg", n.time = "2024-12-23 12:43"
+MERGE (n:Soldier {id: "frame_2930_soldier2"}) ON CREATE SET n.status = "running", n.frame = "frame_2930.jpg", n.time = "2024-12-23 12:43"
+MERGE (n:Soldier {id: "frame_2940_soldier1"}) ON CREATE SET n.status = "on the ground", n.frame = "frame_2940.jpg", n.time = "2024-12-23 12:46"
+MERGE (n:Gun {id: "frame_2940_gun1"}) ON CREATE SET n.frame = "frame_2940.jpg", n.time = "2024-12-23 12:46"
+MERGE (n:Soldier {id: "frame_2950_soldier1"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_2950.jpg", n.time = "2024-12-23 12:49"
+MERGE (n:Soldier {id: "frame_2950_soldier2"}) ON CREATE SET n.status = "standing", n.frame = "frame_2950.jpg", n.time = "2024-12-23 12:49"
+MERGE (n:Gun {id: "frame_2950_gun1"}) ON CREATE SET n.frame = "frame_2950.jpg", n.time = "2024-12-23 12:49"
+MERGE (n:Gun {id: "frame_2950_gun2"}) ON CREATE SET n.frame = "frame_2950.jpg", n.time = "2024-12-23 12:49"
+MERGE (n:Soldier {id: "frame_2960_kneeling_soldier_1"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_2960.jpg", n.time = "2024-12-23 12:52"
+MERGE (n:Soldier {id: "frame_2960_standing_soldier_2"}) ON CREATE SET n.status = "standing", n.frame = "frame_2960.jpg", n.time = "2024-12-23 12:52"
+MERGE (n:Gun {id: "frame_2960_gun_1"}) ON CREATE SET n.frame = "frame_2960.jpg", n.time = "2024-12-23 12:52"
+MERGE (n:Gun {id: "frame_2960_gun_2"}) ON CREATE SET n.frame = "frame_2960.jpg", n.time = "2024-12-23 12:52"
+MERGE (n:Soldier {id: "frame_2970_soldier1"}) ON CREATE SET n.status = "on the ground", n.frame = "frame_2970.jpg", n.time = "2024-12-23 12:55"
+MERGE (n:Gun {id: "frame_2970_gun1"}) ON CREATE SET n.frame = "frame_2970.jpg", n.time = "2024-12-23 12:55"
+MERGE (n:Soldier {id: "frame_2980_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_2980.jpg", n.time = "2024-12-23 12:58"
+MERGE (n:Soldier {id: "frame_2990_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_2990", n.time = "2024-12-23 13:01"
+MERGE (n:Soldier {id: "frame_3000_soldier1"}) ON CREATE SET n.status = "on a road", n.frame = "frame_3000.jpg", n.time = "2024-12-23 13:04"
+MERGE (n:Gun {id: "frame_3000_gun1"}) ON CREATE SET n.frame = "frame_3000.jpg", n.time = "2024-12-23 13:04"
+MERGE (n:Soldier {id: "frame_3010_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_3010.jpg", n.time = "2024-12-23 13:07"
+MERGE (n:Gun {id: "frame_3010_gun1"}) ON CREATE SET n.frame = "frame_3010.jpg", n.time = "2024-12-23 13:07"
+MERGE (n:Soldier {id: "frame_3020_soldier1"}) ON CREATE SET n.status = "walking", n.frame = "frame_3020.jpg", n.time = "2024-12-23 13:10"
+MERGE (n:Gun {id: "frame_3020_gun1"}) ON CREATE SET n.frame = "frame_3020.jpg", n.time = "2024-12-23 13:10"
+MERGE (n:Soldier {id: "frame_3030_soldier1"}) ON CREATE SET n.status = "walking", n.frame = "frame_3030.jpg", n.time = "2024-12-23 13:13"
+MERGE (n:Gun {id: "frame_3030_gun1"}) ON CREATE SET n.frame = "frame_3030.jpg", n.time = "2024-12-23 13:13"
+MERGE (n:Soldier {id: "frame_3040_soldier1"}) ON CREATE SET n.status = "on the ground", n.frame = "frame_3040.jpg", n.time = "2024-12-23 13:16"
+MERGE (n:Gun {id: "frame_3040_gun1"}) ON CREATE SET n.frame = "frame_3040.jpg", n.time = "2024-12-23 13:16"
+MERGE (n:Soldier {id: "frame_3050_soldier1"}) ON CREATE SET n.status = "walking", n.frame = "frame_3050.jpg", n.time = "2024-12-23 13:19"
+MERGE (n:Gun {id: "frame_3050_gun1"}) ON CREATE SET n.frame = "frame_3050.jpg", n.time = "2024-12-23 13:19"
+MERGE (n:Soldier {id: "frame_3060_soldier1"}) ON CREATE SET n.status = "undefined", n.frame = "frame_3060.jpg", n.time = "2024-12-23 13:22"
+MERGE (n:Gun {id: "frame_3060_gun1"}) ON CREATE SET n.frame = "frame_3060.jpg", n.time = "2024-12-23 13:22"
+MERGE (n:Soldier {id: "frame_3070_soldier1"}) ON CREATE SET n.status = "", n.frame = "frame_3070.jpg", n.time = "2024-12-23 13:25"
+MERGE (n:Gun {id: "frame_3070_gun1"}) ON CREATE SET n.frame = "frame_3070.jpg", n.time = "2024-12-23 13:25"
+MERGE (n:Soldier {id: "frame_3080_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_3080.jpg", n.time = "2024-12-23 13:28"
+MERGE (n:Soldier {id: "frame_3080_soldier2"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_3080.jpg", n.time = "2024-12-23 13:28"
+MERGE (n:Gun {id: "frame_3080_gun1"}) ON CREATE SET n.frame = "frame_3080.jpg", n.time = "2024-12-23 13:28"
+MERGE (n:Soldier {id: "frame_3090_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_3090.jpg", n.time = "2024-12-23 13:31"
+MERGE (n:Gun {id: "frame_3090_gun1"}) ON CREATE SET n.frame = "frame_3090.jpg", n.time = "2024-12-23 13:31"
+MERGE (n:Soldier {id: "frame_3100_soldier"}) ON CREATE SET n.status = "in background", n.frame = "frame_3100.jpg", n.time = "2024-12-23 13:34"
+MERGE (n:Gun {id: "frame_3100_gun"}) ON CREATE SET n.frame = "frame_3100.jpg", n.time = "2024-12-23 13:34"
+MERGE (n:Soldier {id: "frame_3110_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_3110.jpg", n.time = "2024-12-23 13:37"
+MERGE (n:Gun {id: "frame_3110_gun1"}) ON CREATE SET n.frame = "frame_3110.jpg", n.time = "2024-12-23 13:37"
+MERGE (n:Soldier {id: "frame_3120_soldier1"}) ON CREATE SET n.status = "partial view", n.frame = "frame_3120.jpg", n.time = "2024-12-23 13:40"
+MERGE (n:Gun {id: "frame_3120_gun1"}) ON CREATE SET n.frame = "frame_3120.jpg", n.time = "2024-12-23 13:40"
+MERGE (n:Soldier {id: "frame_3140_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_3140.jpg", n.time = "2024-12-23 13:46"
+MERGE (n:Soldier {id: "frame_3150_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_3150.jpg", n.time = "2024-12-23 13:49"
+MERGE (n:Soldier {id: "frame_3160_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_3160.jpg", n.time = "2024-12-23 13:52"
+MERGE (n:Soldier {id: "frame_3170_soldier1"}) ON CREATE SET n.status = "on ground", n.frame = "frame_3170.jpg", n.time = "2024-12-23 13:55"
+MERGE (n:Vehicle {id: "frame_3170_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_3170.jpg", n.time = "2024-12-23 13:55"
+MERGE (n:Soldier {id: "frame_3180_soldier1"}) ON CREATE SET n.status = "", n.frame = "frame_3180.jpg", n.time = "2024-12-23 13:58"
+MERGE (n:Checkpoint {id: "frame_3180_checkpoint1"}) ON CREATE SET n.frame = "frame_3180.jpg", n.time = "2024-12-23 13:58"
+MERGE (n:Soldier {id: "frame_3190_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_3190.jpg", n.time = "2024-12-23 14:01"
+MERGE (n:Checkpoint {id: "frame_3190_checkpoint1"}) ON CREATE SET n.frame = "frame_3190.jpg", n.time = "2024-12-23 14:01"
+MERGE (n:Gun {id: "frame_3200_randomgun"}) ON CREATE SET n.frame = "frame_3200.jpg", n.time = "2024-12-23 14:04"
+MERGE (n:Gun {id: "frame_3210_gun1"}) ON CREATE SET n.frame = "frame_3210.jpg", n.time = "2024-12-23 14:07"
+MERGE (n:Gun {id: "frame_3220_gun1"}) ON CREATE SET n.frame = "frame_3220.jpg", n.time = "2024-12-23 14:10"
+MERGE (n:Gun {id: "frame_3230_gun1"}) ON CREATE SET n.frame = "frame_3230.jpg", n.time = "2024-12-23 14:13"
+MERGE (n:Gun {id: "frame_3240_gun"}) ON CREATE SET n.frame = "frame_3240.jpg", n.time = "2024-12-23 14:16"
+MERGE (n:Gun {id: "frame_3250_gun1"}) ON CREATE SET n.frame = "frame_3250.jpg", n.time = "2024-12-23 14:19"
+MERGE (n:Gun {id: "frame_3260_gun_1"}) ON CREATE SET n.frame = "frame_3260.jpg", n.time = "2024-12-23 14:22"
+MERGE (n:Gun {id: "frame_3270.jpg_gun1"}) ON CREATE SET n.frame = "frame_3270.jpg", n.time = "2024-12-23 14:25"
+MERGE (n:Gun {id: "frame_3280_gun1"}) ON CREATE SET n.frame = "frame_3280.jpg", n.time = "2024-12-23 14:28"
+MERGE (n:Gun {id: "frame_3290_gun_1"}) ON CREATE SET n.frame = "frame_3290.jpg", n.time = "2024-12-23 14:31"
+MERGE (n:Checkpoint {id: "frame_3290_checkpoint_1"}) ON CREATE SET n.frame = "frame_3290.jpg", n.time = "2024-12-23 14:31"
+MERGE (n:Gun {id: "frame_3300_gun_1"}) ON CREATE SET n.frame = "frame_3300.jpg", n.time = "2024-12-23 14:34"
+MERGE (n:Soldier {id: "frame_3310_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_3310.jpg", n.time = "2024-12-23 14:37"
+MERGE (n:Tank {id: "frame_3310_tank1"}) ON CREATE SET n.status = "in background", n.frame = "frame_3310.jpg", n.time = "2024-12-23 14:37"
+MERGE (n:Gun {id: "frame_3310_gun1"}) ON CREATE SET n.frame = "frame_3310.jpg", n.time = "2024-12-23 14:37"
+MERGE (n:Soldier {id: "frame_3330_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_3330.jpg", n.time = "2024-12-23 14:43"
+MERGE (n:Gun {id: "frame_3330_gun1"}) ON CREATE SET n.frame = "frame_3330.jpg", n.time = "2024-12-23 14:43"
+MERGE (n:Vehicle {id: "frame_3330_vehicle1"}) ON CREATE SET n.status = "stationary", n.frame = "frame_3330.jpg", n.time = "2024-12-23 14:43"
+MERGE (n:Gun {id: "frame_3340_gun1"}) ON CREATE SET n.frame = "frame_3340.jpg", n.time = "2024-12-23 14:46"
+MERGE (n:Soldier {id: "frame_3340_soldier1"}) ON CREATE SET n.status = "near a building", n.frame = "frame_3340.jpg", n.time = "2024-12-23 14:46"
+MERGE (n:Soldier {id: "frame_3340_soldier2"}) ON CREATE SET n.status = "near a building", n.frame = "frame_3340.jpg", n.time = "2024-12-23 14:46"
+MERGE (n:Vehicle {id: "frame_3340_vehicle1"}) ON CREATE SET n.status = "partially visible and not burning", n.frame = "frame_3340.jpg", n.time = "2024-12-23 14:46"
+MERGE (n:Soldier {id: "frame_3360_soldier1"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_3360.jpg", n.time = "2024-12-23 14:49"
+MERGE (n:Gun {id: "frame_3360_gun1"}) ON CREATE SET n.frame = "frame_3360.jpg", n.time = "2024-12-23 14:49"
+MERGE (n:Vehicle {id: "frame_3360_vehicle1"}) ON CREATE SET n.status = "non-burning", n.frame = "frame_3360.jpg", n.time = "2024-12-23 14:49"
+MERGE (n:Soldier {id: "frame_3370_soldier"}) ON CREATE SET n.status = "", n.frame = "frame_3370.jpg", n.time = "2024-12-23 14:52"
+MERGE (n:Gun {id: "frame_3370_gun"}) ON CREATE SET n.frame = "frame_3370.jpg", n.time = "2024-12-23 14:52"
+MERGE (n:Checkpoint {id: "frame_3370_checkpoint"}) ON CREATE SET n.frame = "frame_3370.jpg", n.time = "2024-12-23 14:52"
+MERGE (n:Vehicle {id: "frame_3370_vehicle"}) ON CREATE SET n.status = "not burning", n.frame = "frame_3370.jpg", n.time = "2024-12-23 14:52"
+MERGE (n:Soldier {id: "frame_3380_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_3380.jpg", n.time = "2024-12-23 14:55"
+MERGE (n:Gun {id: "frame_3380_gun1"}) ON CREATE SET n.frame = "frame_3380.jpg", n.time = "2024-12-23 14:55"
+MERGE (n:Checkpoint {id: "frame_3380_checkpoint1"}) ON CREATE SET n.frame = "frame_3380.jpg", n.time = "2024-12-23 14:55"
+MERGE (n:Vehicle {id: "frame_3380_vehicle1"}) ON CREATE SET n.status = "visible", n.frame = "frame_3380.jpg", n.time = "2024-12-23 14:55"
+MERGE (n:Soldier {id: "frame_3390_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_3390.jpg", n.time = "2024-12-23 14:58"
+MERGE (n:Soldier {id: "frame_3390_kneeling_soldier"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_3390.jpg", n.time = "2024-12-23 14:58"
+MERGE (n:Vehicle {id: "frame_3390_vehicle"}) ON CREATE SET n.status = "not burning", n.frame = "frame_3390.jpg", n.time = "2024-12-23 14:58"
+MERGE (n:Gun {id: "frame_3390_gun"}) ON CREATE SET n.frame = "frame_3390.jpg", n.time = "2024-12-23 14:58"
+MERGE (n:Soldier {id: "frame_3400_soldier1"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_3400.jpg", n.time = "2024-12-23 15:01"
+MERGE (n:Gun {id: "frame_3400_gun1"}) ON CREATE SET n.frame = "frame_3400.jpg", n.time = "2024-12-23 15:01"
+MERGE (n:Checkpoint {id: "frame_3400_checkpoint1"}) ON CREATE SET n.frame = "frame_3400.jpg", n.time = "2024-12-23 15:01"
+MERGE (n:Vehicle {id: "frame_3400_vehicle1"}) ON CREATE SET n.status = "not on fire", n.frame = "frame_3400.jpg", n.time = "2024-12-23 15:01"
+MERGE (n:Soldier {id: "frame_3410_soldier1"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_3410", n.time = "2024-12-23 15:04"
+MERGE (n:Tank {id: "frame_3410_tank1"}) ON CREATE SET n.status = "located nearby", n.frame = "frame_3410", n.time = "2024-12-23 15:04"
+MERGE (n:Soldier {id: "frame_3420_kneelingSoldier"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_3420.jpg", n.time = "2024-12-23 15:07"
+MERGE (n:Tank {id: "frame_3420_tank"}) ON CREATE SET n.status = "positioned", n.frame = "frame_3420.jpg", n.time = "2024-12-23 15:07"
+MERGE (n:Checkpoint {id: "frame_3420_nearBuilding"}) ON CREATE SET n.frame = "frame_3420.jpg", n.time = "2024-12-23 15:07"
+MERGE (n:Soldier {id: "frame_3430_soldier1"}) ON CREATE SET n.status = "kneeling or moving carefully", n.frame = "frame_3430.jpg", n.time = "2024-12-23 15:10"
+MERGE (n:Tank {id: "frame_3430_tank1"}) ON CREATE SET n.status = "visible in the scene", n.frame = "frame_3430.jpg", n.time = "2024-12-23 15:10"
+MERGE (n:Soldier {id: "frame_3440_soldier1"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_3440.jpg", n.time = "2024-12-23 15:13"
+MERGE (n:Gun {id: "frame_3440_gun1"}) ON CREATE SET n.frame = "frame_3440.jpg", n.time = "2024-12-23 15:13"
+MERGE (n:Tank {id: "frame_3440_tank1"}) ON CREATE SET n.status = "present", n.frame = "frame_3440.jpg", n.time = "2024-12-23 15:13"
+MERGE (n:Gun {id: "frame_3450_gun1"}) ON CREATE SET n.frame = "frame_3450.jpg", n.time = "2024-12-23 15:16"
+MERGE (n:Tank {id: "frame_3450_tank1"}) ON CREATE SET n.status = "", n.frame = "frame_3450.jpg", n.time = "2024-12-23 15:16"
+MERGE (n:Gun {id: "frame_3460_gun1"}) ON CREATE SET n.frame = "frame_3460.jpg", n.time = "2024-12-23 15:19"
+MERGE (n:Tank {id: "frame_3460_tank1"}) ON CREATE SET n.status = "Positioned next to a yellow building", n.frame = "frame_3460.jpg", n.time = "2024-12-23 15:19"
+MERGE (n:Tank {id: "frame_3470_tank1"}) ON CREATE SET n.status = "positioned", n.frame = "frame_3470.jpg", n.time = "2024-12-23 15:22"
+MERGE (n:Tank {id: "frame_3480_tank"}) ON CREATE SET n.status = "positioned", n.frame = "frame_3480.jpg", n.time = "2024-12-23 15:25"
+MERGE (n:Soldier {id: "frame_3500_soldier1"}) ON CREATE SET n.status = "unknown", n.frame = "frame_3500.jpg", n.time = "2024-12-23 15:31"
+MERGE (n:Gun {id: "frame_3500_gun1"}) ON CREATE SET n.frame = "frame_3500.jpg", n.time = "2024-12-23 15:31"
+MERGE (n:Tank {id: "frame_3500_tank1"}) ON CREATE SET n.status = "positioned", n.frame = "frame_3500.jpg", n.time = "2024-12-23 15:31"
+MERGE (n:Gun {id: "frame_3510_gun1"}) ON CREATE SET n.frame = "frame_3510.jpg", n.time = "2024-12-23 15:34"
+MERGE (n:Tank {id: "frame_3510_tank1"}) ON CREATE SET n.status = "Positioned near a building", n.frame = "frame_3510.jpg", n.time = "2024-12-23 15:34"
+MERGE (n:Gun {id: "frame_3520_gun_1"}) ON CREATE SET n.frame = "frame_3520.jpg", n.time = "2024-12-23 15:37"
+MERGE (n:Tank {id: "frame_3520_tank_1"}) ON CREATE SET n.status = "", n.frame = "frame_3520.jpg", n.time = "2024-12-23 15:37"
+MERGE (n:Gun {id: "frame_3530_gun1"}) ON CREATE SET n.frame = "frame_3530.jpg", n.time = "2024-12-23 15:40"
+MERGE (n:Tank {id: "frame_3530_tank1"}) ON CREATE SET n.status = "positioned", n.frame = "frame_3530.jpg", n.time = "2024-12-23 15:40"
+MERGE (n:Gun {id: "frame_3540_gun"}) ON CREATE SET n.frame = "frame_3540.jpg", n.time = "2024-12-23 15:43"
+MERGE (n:Tank {id: "frame_3540_tank"}) ON CREATE SET n.status = "positioned", n.frame = "frame_3540.jpg", n.time = "2024-12-23 15:43"
+MERGE (n:Gun {id: "frame_3550_gun"}) ON CREATE SET n.frame = "frame_3550.jpg", n.time = "2024-12-23 15:46"
+MERGE (n:Tank {id: "frame_3550_tank"}) ON CREATE SET n.status = "Positioned on a slope, partially obscured by grass", n.frame = "frame_3550.jpg", n.time = "2024-12-23 15:46"
+MERGE (n:Gun {id: "frame_3560_gun1"}) ON CREATE SET n.frame = "frame_3560.jpg", n.time = "2024-12-23 15:49"
+MERGE (n:Tank {id: "frame_3560_tank1"}) ON CREATE SET n.status = "partly obscured", n.frame = "frame_3560.jpg", n.time = "2024-12-23 15:49"
+MERGE (n:Gun {id: "frame_3570_gun1"}) ON CREATE SET n.frame = "frame_3570.jpg", n.time = "2024-12-23 15:52"
+MERGE (n:Tank {id: "frame_3570_tank1"}) ON CREATE SET n.status = "", n.frame = "frame_3570.jpg", n.time = "2024-12-23 15:52"
+MERGE (n:Gun {id: "frame_3580_gun_foreground"}) ON CREATE SET n.frame = "frame_3580.jpg", n.time = "2024-12-23 15:55"
+MERGE (n:Tank {id: "frame_3580_tank_background"}) ON CREATE SET n.status = "positioned", n.frame = "frame_3580.jpg", n.time = "2024-12-23 15:55"
+MERGE (n:Gun {id: "frame_3590_gun1"}) ON CREATE SET n.frame = "frame_3590.jpg", n.time = "2024-12-23 15:58"
+MERGE (n:Tank {id: "frame_3590_tank1"}) ON CREATE SET n.status = "positioned on a slope", n.frame = "frame_3590.jpg", n.time = "2024-12-23 15:58"
+MERGE (n:Tank {id: "frame_3600_tank1"}) ON CREATE SET n.status = "", n.frame = "frame_3600.jpg", n.time = "2024-12-23 16:01"
+MERGE (n:Tank {id: "frame_3610_tank"}) ON CREATE SET n.status = "on the ground", n.frame = "frame_3610.jpg", n.time = "2024-12-23 16:04"
+MERGE (n:Tank {id: "frame_3620_tank"}) ON CREATE SET n.status = "on a grassy slope", n.frame = "frame_3620.jpg", n.time = "2024-12-23 16:07"
+MERGE (n:Tank {id: "frame_3630_tank1"}) ON CREATE SET n.status = "partially visible", n.frame = "frame_3630.jpg", n.time = "2024-12-23 16:10"
+MERGE (n:Tank {id: "frame_3640_tank"}) ON CREATE SET n.status = "positioned", n.frame = "frame_3640.jpg", n.time = "2024-12-23 16:13"
+MERGE (n:Gun {id: "frame_3650_gun1"}) ON CREATE SET n.frame = "frame_3650.jpg", n.time = "2024-12-23 16:16"
+MERGE (n:Tank {id: "frame_3650_tank1"}) ON CREATE SET n.status = "slight damage", n.frame = "frame_3650.jpg", n.time = "2024-12-23 16:16"
+MERGE (n:Gun {id: "frame_3660_gun_1"}) ON CREATE SET n.frame = "frame_3660.jpg", n.time = "2024-12-23 16:19"
+MERGE (n:Vehicle {id: "frame_3660_vehicle_1"}) ON CREATE SET n.status = "present", n.frame = "frame_3660.jpg", n.time = "2024-12-23 16:19"
+MERGE (n:Soldier {id: "frame_3670_soldier"}) ON CREATE SET n.status = "possibly holding gun", n.frame = "frame_3670.jpg", n.time = "2024-12-23 16:22"
+MERGE (n:Gun {id: "frame_3670_gun"}) ON CREATE SET n.frame = "frame_3670.jpg", n.time = "2024-12-23 16:22"
+MERGE (n:Vehicle {id: "frame_3670_vehicle"}) ON CREATE SET n.status = "partially visible", n.frame = "frame_3670.jpg", n.time = "2024-12-23 16:22"
+MERGE (n:Checkpoint {id: "frame_3670_checkpoint"}) ON CREATE SET n.frame = "frame_3670.jpg", n.time = "2024-12-23 16:22"
+MERGE (n:Vehicle {id: "3680_vehicle1"}) ON CREATE SET n.status = "damaged", n.frame = "frame_3680.jpg", n.time = "2024-12-23 16:25"
+MERGE (n:Checkpoint {id: "frame_3690_checkpoint1"}) ON CREATE SET n.frame = "frame_3690.jpg", n.time = "2024-12-23 16:28"
+MERGE (n:Vehicle {id: "frame_3700_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_3700.jpg", n.time = "2024-12-23 16:31"
+MERGE (n:Gun {id: "frame_3710_gun"}) ON CREATE SET n.frame = "frame_3710.jpg", n.time = "2024-12-23 16:34"
+MERGE (n:Gun {id: "frame_3720_gun1"}) ON CREATE SET n.frame = "frame_3720", n.time = "2024-12-23 16:37"
+MERGE (n:Soldier {id: "frame_3730_soldier1"}) ON CREATE SET n.status = "", n.frame = "frame_3730.jpg", n.time = "2024-12-23 16:40"
+MERGE (n:Gun {id: "frame_3730_gun1"}) ON CREATE SET n.frame = "frame_3730.jpg", n.time = "2024-12-23 16:40"
+MERGE (n:Checkpoint {id: "frame_3730_checkpoint1"}) ON CREATE SET n.frame = "frame_3730.jpg", n.time = "2024-12-23 16:40"
+MERGE (n:Gun {id: "frame_3770_gun"}) ON CREATE SET n.frame = "frame_3770.jpg", n.time = "2024-12-23 16:52"
+MERGE (n:Gun {id: "frame_3780_gun1"}) ON CREATE SET n.frame = "frame_3780.jpg", n.time = "2024-12-23 16:55"
+MERGE (n:Gun {id: "frame_3790_gun1"}) ON CREATE SET n.frame = "frame_3790.jpg", n.time = "2024-12-23 16:58"
+MERGE (n:Gun {id: "frame_3800_gun1"}) ON CREATE SET n.frame = "frame_3800.jpg", n.time = "2024-12-23 17:01"
+MERGE (n:Gun {id: "frame_3810_gun1"}) ON CREATE SET n.frame = "frame_3810.jpg", n.time = "2024-12-23 17:04"
+MERGE (n:Soldier {id: "frame_3820_soldier1"}) ON CREATE SET n.status = "on the ground", n.frame = "frame_3820", n.time = "2024-12-23 17:07"
+MERGE (n:Gun {id: "frame_3820_gun1"}) ON CREATE SET n.frame = "frame_3820", n.time = "2024-12-23 17:07"
+MERGE (n:Soldier {id: "frame_3830_soldier1"}) ON CREATE SET n.status = "holding gun", n.frame = "frame_3830.jpg", n.time = "2024-12-23 17:10"
+MERGE (n:Gun {id: "frame_3830_gun1"}) ON CREATE SET n.frame = "frame_3830.jpg", n.time = "2024-12-23 17:10"
+MERGE (n:Gun {id: "frame_3840_gun1"}) ON CREATE SET n.frame = "frame_3840.jpg", n.time = "2024-12-23 17:13"
+MERGE (n:Gun {id: "frame_3850_gun1"}) ON CREATE SET n.frame = "frame_3850.jpg", n.time = "2024-12-23 17:16"
+MERGE (n:Gun {id: "frame3860_gun1"}) ON CREATE SET n.frame = "frame_3860.jpg", n.time = "2024-12-23 17:19"
+MERGE (n:Gun {id: "3870_gun1"}) ON CREATE SET n.frame = "frame_3870.jpg", n.time = "2024-12-23 17:22"
+MERGE (n:Gun {id: "frame_3880_gun1"}) ON CREATE SET n.frame = "frame_3880.jpg", n.time = "2024-12-23 17:25"
+MERGE (n:Soldier {id: "frame_3890_soldier1"}) ON CREATE SET n.status = "holding gun", n.frame = "frame_3890.jpg", n.time = "2024-12-23 17:28"
+MERGE (n:Gun {id: "frame_3890_gun1"}) ON CREATE SET n.frame = "frame_3890.jpg", n.time = "2024-12-23 17:28"
+MERGE (n:Gun {id: "frame_3900_gun1"}) ON CREATE SET n.frame = "frame_3900.jpg", n.time = "2024-12-23 17:31"
+MERGE (n:Soldier {id: "frame_3910_soldier"}) ON CREATE SET n.status = "holding gun", n.frame = "frame_3910.jpg", n.time = "2024-12-23 17:34"
+MERGE (n:Gun {id: "frame_3910_gun"}) ON CREATE SET n.frame = "frame_3910.jpg", n.time = "2024-12-23 17:34"
+MERGE (n:Soldier {id: "frame_3920_soldier1"}) ON CREATE SET n.status = "", n.frame = "frame_3920.jpg", n.time = "2024-12-23 17:37"
+MERGE (n:Gun {id: "frame_3920_gun1"}) ON CREATE SET n.frame = "frame_3920.jpg", n.time = "2024-12-23 17:37"
+MERGE (n:Soldier {id: "frame_3930_soldier1"}) ON CREATE SET n.status = "unknown", n.frame = "frame_3930.jpg", n.time = "2024-12-23 17:40"
+MERGE (n:Gun {id: "frame_3930_gun1"}) ON CREATE SET n.frame = "frame_3930.jpg", n.time = "2024-12-23 17:40"
+MERGE (n:Gun {id: "frame_3940_gun1"}) ON CREATE SET n.frame = "frame_3940.jpg", n.time = "2024-12-23 17:43"
+MERGE (n:Soldier {id: "frame_3950_soldier1"}) ON CREATE SET n.status = "holding_gun", n.frame = "frame_3950.jpg", n.time = "2024-12-23 17:46"
+MERGE (n:Gun {id: "frame_3950_gun1"}) ON CREATE SET n.frame = "frame_3950.jpg", n.time = "2024-12-23 17:46"
+MERGE (n:Gun {id: "frame_4370_gun1"}) ON CREATE SET n.frame = "frame_4370.jpg", n.time = "2024-12-23 17:49"
+MERGE (n:Checkpoint {id: "frame_4370_checkpoint1"}) ON CREATE SET n.frame = "frame_4370.jpg", n.time = "2024-12-23 17:49"
+MERGE (n:Gun {id: "frame_4410_gun1"}) ON CREATE SET n.frame = "frame_4410.jpg", n.time = "2024-12-23 17:58"
+MERGE (n:Checkpoint {id: "frame_4410_checkpoint1"}) ON CREATE SET n.frame = "frame_4410.jpg", n.time = "2024-12-23 17:58"
+MERGE (n:Soldier {id: "frame_4420_S1"}) ON CREATE SET n.status = "holding gun", n.frame = "frame_4420.jpg", n.time = "2024-12-23 18:01"
+MERGE (n:Gun {id: "frame_4420_G1"}) ON CREATE SET n.frame = "frame_4420.jpg", n.time = "2024-12-23 18:01"
+MERGE (n:Gun {id: "frame_4430_gun1"}) ON CREATE SET n.frame = "frame_4430.jpg", n.time = "2024-12-23 18:04"
+MERGE (n:Gun {id: "frame_4440_gun1"}) ON CREATE SET n.frame = "frame_4440.jpg", n.time = "2024-12-23 18:07"
+MERGE (n:Gun {id: "frame_4450_rifle"}) ON CREATE SET n.frame = "frame_4450.jpg", n.time = "2024-12-23 18:10"
+MERGE (n:Checkpoint {id: "frame_4450_checkpoint"}) ON CREATE SET n.frame = "frame_4450.jpg", n.time = "2024-12-23 18:10"
+MERGE (n:Gun {id: "frame_4460_gun"}) ON CREATE SET n.frame = "frame_4460.jpg", n.time = "2024-12-23 18:13"
+MERGE (n:Tank {id: "frame_4460_tank"}) ON CREATE SET n.status = "", n.frame = "frame_4460.jpg", n.time = "2024-12-23 18:13"
+MERGE (n:Gun {id: "frame_4470_gun1"}) ON CREATE SET n.frame = "frame_4470.jpg", n.time = "2024-12-23 18:16"
+MERGE (n:Tank {id: "frame_4470_tank1"}) ON CREATE SET n.status = "positioned", n.frame = "frame_4470.jpg", n.time = "2024-12-23 18:16"
+MERGE (n:Gun {id: "frame_4480_gun1"}) ON CREATE SET n.frame = "frame_4480.jpg", n.time = "2024-12-23 18:19"
+MERGE (n:Tank {id: "frame_4480_tank1"}) ON CREATE SET n.status = "partially obscured", n.frame = "frame_4480.jpg", n.time = "2024-12-23 18:19"
+MERGE (n:Gun {id: "frame_4490_gun1"}) ON CREATE SET n.frame = "frame_4490.jpg", n.time = "2024-12-23 18:22"
+MERGE (n:Checkpoint {id: "frame_4490_checkpoint1"}) ON CREATE SET n.frame = "frame_4490.jpg", n.time = "2024-12-23 18:22"
+MERGE (n:Gun {id: "frame_4500_gun1"}) ON CREATE SET n.frame = "frame_4500.jpg", n.time = "2024-12-23 18:25"
+MERGE (n:Gun {id: "frame_4510_gun_1"}) ON CREATE SET n.frame = "frame_4510.jpg", n.time = "2024-12-23 18:28"
+MERGE (n:Soldier {id: "frame_4530_soldier"}) ON CREATE SET n.status = "active", n.frame = "frame_4530.jpg", n.time = "2024-12-23 18:34"
+MERGE (n:Gun {id: "frame_4530_gun"}) ON CREATE SET n.frame = "frame_4530.jpg", n.time = "2024-12-23 18:34"
+MERGE (n:Gun {id: "frame_4540_gun"}) ON CREATE SET n.frame = "frame_4540.jpg", n.time = "2024-12-23 18:37"
+MERGE (n:Gun {id: "frame_4550_gun1"}) ON CREATE SET n.frame = "frame_4550.jpg", n.time = "2024-12-23 18:40"
+MERGE (n:Soldier {id: "frame_4560_soldier1"}) ON CREATE SET n.status = "holding gun", n.frame = "frame_4560", n.time = "2024-12-23 18:43"
+MERGE (n:Gun {id: "frame_4560_gun1"}) ON CREATE SET n.frame = "frame_4560", n.time = "2024-12-23 18:43"
+MERGE (n:Checkpoint {id: "frame_4560_checkpoint1"}) ON CREATE SET n.frame = "frame_4560", n.time = "2024-12-23 18:43"
+MERGE (n:Tank {id: "frame_4560_tank1"}) ON CREATE SET n.status = "near checkpoint", n.frame = "frame_4560", n.time = "2024-12-23 18:43"
+MERGE (n:Tank {id: "frame_4570_tank1"}) ON CREATE SET n.status = "visible", n.frame = "frame_4570.jpg", n.time = "2024-12-23 18:46"
+MERGE (n:Gun {id: "frame_4580_gun_1"}) ON CREATE SET n.frame = "frame_4580.jpg", n.time = "2024-12-23 18:49"
+MERGE (n:Gun {id: "frame4590_gun1"}) ON CREATE SET n.frame = "frame_4590.jpg", n.time = "2024-12-23 18:52"
+MERGE (n:Gun {id: "frame_4600_gun1"}) ON CREATE SET n.frame = "frame_4600.jpg", n.time = "2024-12-23 18:55"
+MERGE (n:Gun {id: "frame_4610_gun1"}) ON CREATE SET n.frame = "frame_4610.jpg", n.time = "2024-12-23 18:58"
+MERGE (n:Gun {id: "frame_4620_gun1"}) ON CREATE SET n.frame = "frame_4620", n.time = "2024-12-23 19:01"
+MERGE (n:Gun {id: "frame_4630_gun"}) ON CREATE SET n.frame = "frame_4630.jpg", n.time = "2024-12-23 19:04"
+MERGE (n:Checkpoint {id: "frame_4630_checkpoint"}) ON CREATE SET n.frame = "frame_4630.jpg", n.time = "2024-12-23 19:04"
+MERGE (n:Gun {id: "frame_4640_gun1"}) ON CREATE SET n.frame = "frame_4640.jpg", n.time = "2024-12-23 19:07"
+MERGE (n:Gun {id: "frame_4650_gun1"}) ON CREATE SET n.frame = "frame_4650.jpg", n.time = "2024-12-23 19:10"
+MERGE (n:Gun {id: "frame_4660_gun1"}) ON CREATE SET n.frame = "frame_4660.jpg", n.time = "2024-12-23 19:13"
+MERGE (n:Gun {id: "frame_4670_gun1"}) ON CREATE SET n.frame = "frame_4670.jpg", n.time = "2024-12-23 19:16"
+MERGE (n:Gun {id: "frame_4680_gun1"}) ON CREATE SET n.frame = "frame_4680.jpg", n.time = "2024-12-23 19:19"
+MERGE (n:Gun {id: "frame_4690_gun"}) ON CREATE SET n.frame = "frame_4690", n.time = "2024-12-23 19:22"
+MERGE (n:Gun {id: "frame_4700_gun_1"}) ON CREATE SET n.frame = "frame_4700.jpg", n.time = "2024-12-23 19:25"
+MERGE (n:Gun {id: "frame_4710_gun1"}) ON CREATE SET n.frame = "frame_4710.jpg", n.time = "2024-12-23 19:28"
+MERGE (n:Gun {id: "gun_frame_4720"}) ON CREATE SET n.frame = "frame_4720.jpg", n.time = "2024-12-23 19:31"
+MERGE (n:Soldier {id: "frame_4730_soldier1"}) ON CREATE SET n.status = "holding gun", n.frame = "frame_4730.jpg", n.time = "2024-12-23 19:34"
+MERGE (n:Gun {id: "frame_4730_gun1"}) ON CREATE SET n.frame = "frame_4730.jpg", n.time = "2024-12-23 19:34"
+MERGE (n:Checkpoint {id: "frame_4730_checkpoint1"}) ON CREATE SET n.frame = "frame_4730.jpg", n.time = "2024-12-23 19:34"
+MERGE (n:Gun {id: "frame_4740_gun1"}) ON CREATE SET n.frame = "frame_4740.jpg", n.time = "2024-12-23 19:37"
+MERGE (n:Gun {id: "frame_4750_gun1"}) ON CREATE SET n.frame = "frame_4750", n.time = "2024-12-23 19:40"
+MERGE (n:Soldier {id: "frame_4750_soldier1"}) ON CREATE SET n.status = "holding", n.frame = "frame_4750", n.time = "2024-12-23 19:40"
+MERGE (n:Gun {id: "frame_4760_gun1"}) ON CREATE SET n.frame = "frame_4760.jpg", n.time = "2024-12-23 19:43"
+MERGE (n:Gun {id: "frame_4770_gun1"}) ON CREATE SET n.frame = "frame_4770.jpg", n.time = "2024-12-23 19:46"
+MERGE (n:Gun {id: "frame_4780_gun1"}) ON CREATE SET n.frame = "frame_4780.jpg", n.time = "2024-12-23 19:49"
+MERGE (n:Soldier {id: "frame_4790_soldier1"}) ON CREATE SET n.status = "holding gun", n.frame = "frame_4790.jpg", n.time = "2024-12-23 19:52"
+MERGE (n:Gun {id: "frame_4790_gun1"}) ON CREATE SET n.frame = "frame_4790.jpg", n.time = "2024-12-23 19:52"
+MERGE (n:Vehicle {id: "frame_4790_vehicle1"}) ON CREATE SET n.status = "military", n.frame = "frame_4790.jpg", n.time = "2024-12-23 19:52"
+MERGE (n:Tank {id: "frame_4790_tank1"}) ON CREATE SET n.status = "present", n.frame = "frame_4790.jpg", n.time = "2024-12-23 19:52"
+MERGE (n:Soldier {id: "frame_4800_soldier"}) ON CREATE SET n.status = "unknown", n.frame = "frame_4800.jpg", n.time = "2024-12-23 19:55"
+MERGE (n:Gun {id: "frame_4800_gun"}) ON CREATE SET n.frame = "frame_4800.jpg", n.time = "2024-12-23 19:55"
+MERGE (n:Gun {id: "frame_4810_gun1"}) ON CREATE SET n.frame = "frame_4810.jpg", n.time = "2024-12-23 19:58"
+MERGE (n:Checkpoint {id: "frame_4810_checkpoint1"}) ON CREATE SET n.frame = "frame_4810.jpg", n.time = "2024-12-23 19:58"
+MERGE (n:Vehicle {id: "frame_4810_vehicle1"}) ON CREATE SET n.status = "", n.frame = "frame_4810.jpg", n.time = "2024-12-23 19:58"
+MERGE (n:Checkpoint {id: "frame_4820_checkpoint"}) ON CREATE SET n.frame = "frame_4820.jpg", n.time = "2024-12-23 20:01"
+MERGE (n:Gun {id: "frame_5080_gun1"}) ON CREATE SET n.frame = "frame_5080.jpg", n.time = "2024-12-23 20:10"
+MERGE (n:Soldier {id: "frame_5090_soldier1"}) ON CREATE SET n.status = "holding gun", n.frame = "frame_5090.jpg", n.time = "2024-12-23 20:13"
+MERGE (n:Gun {id: "frame_5090_gun1"}) ON CREATE SET n.frame = "frame_5090.jpg", n.time = "2024-12-23 20:13"
+MERGE (n:Vehicle {id: "frame_5090_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_5090.jpg", n.time = "2024-12-23 20:13"
+MERGE (n:Gun {id: "frame_5100_gun"}) ON CREATE SET n.frame = "frame_5100.jpg", n.time = "2024-12-23 20:16"
+MERGE (n:Gun {id: "frame_5110_gun1"}) ON CREATE SET n.frame = "frame_5110.jpg", n.time = "2024-12-23 20:19"
+MERGE (n:Vehicle {id: "frame_5110_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_5110.jpg", n.time = "2024-12-23 20:19"
+MERGE (n:Vehicle {id: "frame_5220_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_5220.jpg", n.time = "2024-12-23 20:52"
+MERGE (n:Vehicle {id: "frame_5230_burning_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_5230.jpg", n.time = "2024-12-23 20:55"
+MERGE (n:Gun {id: "frame_5270_gun1"}) ON CREATE SET n.frame = "frame_5270.jpg", n.time = "2024-12-23 21:07"
+MERGE (n:Tank {id: "frame_5270_tank1"}) ON CREATE SET n.status = "in motion", n.frame = "frame_5270.jpg", n.time = "2024-12-23 21:07"
+MERGE (n:Soldier {id: "frame_5280_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_5280.jpg", n.time = "2024-12-23 21:10"
+MERGE (n:Gun {id: "frame_5280_gun1"}) ON CREATE SET n.frame = "frame_5280.jpg", n.time = "2024-12-23 21:10"
+MERGE (n:Soldier {id: "frame_5290_soldier1"}) ON CREATE SET n.status = "present", n.frame = "frame_5290.jpg", n.time = "2024-12-23 21:13"
+MERGE (n:Gun {id: "frame_5290_gun1"}) ON CREATE SET n.frame = "frame_5290.jpg", n.time = "2024-12-23 21:13"
+MERGE (n:Checkpoint {id: "frame_5290_checkpoint1"}) ON CREATE SET n.frame = "frame_5290.jpg", n.time = "2024-12-23 21:13"
+MERGE (n:Gun {id: "frame_5300_gun1"}) ON CREATE SET n.frame = "frame_5300.jpg", n.time = "2024-12-23 21:16"
+MERGE (n:Checkpoint {id: "frame_5300_checkpoint1"}) ON CREATE SET n.frame = "frame_5300.jpg", n.time = "2024-12-23 21:16"
+MERGE (n:Soldier {id: "frame_5310_soldier1"}) ON CREATE SET n.status = "foreground", n.frame = "frame_5310.jpg", n.time = "2024-12-23 21:19"
+MERGE (n:Gun {id: "frame_5310_gun1"}) ON CREATE SET n.frame = "frame_5310.jpg", n.time = "2024-12-23 21:19"
+MERGE (n:Gun {id: "frame_5320_gun1"}) ON CREATE SET n.frame = "frame_5320.jpg", n.time = "2024-12-23 21:22"
+MERGE (n:Gun {id: "frame_5330_gun1"}) ON CREATE SET n.frame = "frame_5330.jpg", n.time = "2024-12-23 21:25"
+MERGE (n:Gun {id: "frame_5340_gun1"}) ON CREATE SET n.frame = "frame_5340.jpg", n.time = "2024-12-23 21:28"
+MERGE (n:Gun {id: "frame_5350_gun1"}) ON CREATE SET n.frame = "frame_5350.jpg", n.time = "2024-12-23 21:31"
+MERGE (n:Gun {id: "frame_5360_gun1"}) ON CREATE SET n.frame = "frame_5360.jpg", n.time = "2024-12-23 21:34"
+MERGE (n:Vehicle {id: "frame_5370_vehicle_1"}) ON CREATE SET n.status = "burning", n.frame = "frame_5370.jpg", n.time = "2024-12-23 21:37"
+MERGE (n:Gun {id: "frame_5400_gun"}) ON CREATE SET n.frame = "frame_5400.jpg", n.time = "2024-12-23 21:46"
+MERGE (n:Gun {id: "frame5410_gun1"}) ON CREATE SET n.frame = "frame_5410.jpg", n.time = "2024-12-23 21:49"
+MERGE (n:Vehicle {id: "frame5410_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_5410.jpg", n.time = "2024-12-23 21:49"
+MERGE (n:Gun {id: "frame_5420_gun1"}) ON CREATE SET n.frame = "frame_5420.jpg", n.time = "2024-12-23 21:52"
+MERGE (n:Gun {id: "frame_5430_gun1"}) ON CREATE SET n.frame = "frame_5430.jpg", n.time = "2024-12-23 21:55"
+MERGE (n:Vehicle {id: "frame_5430_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_5430.jpg", n.time = "2024-12-23 21:55"
+MERGE (n:Gun {id: "frame_5440_gun1"}) ON CREATE SET n.frame = "frame_5440.jpg", n.time = "2024-12-23 21:58"
+MERGE (n:Vehicle {id: "frame_5440_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_5440.jpg", n.time = "2024-12-23 21:58"
+MERGE (n:Gun {id: "frame_5450_gun1"}) ON CREATE SET n.frame = "frame_5450", n.time = "2024-12-23 22:01"
+MERGE (n:Vehicle {id: "frame_5450_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_5450", n.time = "2024-12-23 22:01"
+MERGE (n:Vehicle {id: "frame_5460_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_5460.jpg", n.time = "2024-12-23 22:04"
+MERGE (n:Vehicle {id: "frame_5470_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_5470.jpg", n.time = "2024-12-23 22:07"
+MERGE (n:Gun {id: "frame_5470_gun"}) ON CREATE SET n.frame = "frame_5470.jpg", n.time = "2024-12-23 22:07"
+MERGE (n:Vehicle {id: "frame_5480_burning_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_5480", n.time = "2024-12-23 22:10"
+MERGE (n:Gun {id: "frame_5480_visible_gun"}) ON CREATE SET n.frame = "frame_5480", n.time = "2024-12-23 22:10"
+MERGE (n:Gun {id: "frame_5490_gun1"}) ON CREATE SET n.frame = "frame_5490.jpg", n.time = "2024-12-23 22:13"
+MERGE (n:Vehicle {id: "frame_5490_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_5490.jpg", n.time = "2024-12-23 22:13"
+MERGE (n:Vehicle {id: "frame_5500_vehicle_burning"}) ON CREATE SET n.status = "burning", n.frame = "frame_5500.jpg", n.time = "2024-12-23 22:16"
+MERGE (n:Gun {id: "frame_5500_gun_bottom"}) ON CREATE SET n.frame = "frame_5500.jpg", n.time = "2024-12-23 22:16"
+MERGE (n:Vehicle {id: "frame5510_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_5510.jpg", n.time = "2024-12-23 22:19"
+MERGE (n:Vehicle {id: "frame_5520_burning_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_5520.jpg", n.time = "2024-12-23 22:22"
+MERGE (n:Vehicle {id: "frame_5530_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_5530.jpg", n.time = "2024-12-23 22:25"
+MERGE (n:Vehicle {id: "frame_5540_vehicle_1"}) ON CREATE SET n.status = "burning", n.frame = "frame_5540", n.time = "2024-12-23 22:28"
+MERGE (n:Vehicle {id: "frame5550_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_5550.jpg", n.time = "2024-12-23 22:31"
+MERGE (n:Gun {id: "frame_5560_gun_1"}) ON CREATE SET n.frame = "frame_5560.jpg", n.time = "2024-12-23 22:34"
+MERGE (n:Gun {id: "frame_5570_gun"}) ON CREATE SET n.frame = "frame_5570.jpg", n.time = "2024-12-23 22:37"
+MERGE (n:Gun {id: "frame_5580.jpg_gun1"}) ON CREATE SET n.frame = "frame_5580.jpg", n.time = "2024-12-23 22:40"
+MERGE (n:Soldier {id: "frame_5590_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_5590.jpg", n.time = "2024-12-23 22:43"
+MERGE (n:Gun {id: "frame_5590_gun1"}) ON CREATE SET n.frame = "frame_5590.jpg", n.time = "2024-12-23 22:43"
+MERGE (n:Soldier {id: "frame_5600_soldier1"}) ON CREATE SET n.status = "firing", n.frame = "frame_5600.jpg", n.time = "2024-12-23 22:46"
+MERGE (n:Gun {id: "frame_5600_gun1"}) ON CREATE SET n.frame = "frame_5600.jpg", n.time = "2024-12-23 22:46"
+MERGE (n:Soldier {id: "frame_5610_soldier1"}) ON CREATE SET n.status = "present", n.frame = "frame_5610.jpg", n.time = "2024-12-23 22:49"
+MERGE (n:Gun {id: "frame_5610_gun1"}) ON CREATE SET n.frame = "frame_5610.jpg", n.time = "2024-12-23 22:49"
+MERGE (n:Vehicle {id: "frame_6150_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_6150", n.time = "2024-12-23 22:52"
+MERGE (n:Checkpoint {id: "frame_6150_checkpoint1"}) ON CREATE SET n.frame = "frame_6150", n.time = "2024-12-23 22:52"
+MERGE (n:Gun {id: "frame_6160_gun1"}) ON CREATE SET n.frame = "frame_6160.jpg", n.time = "2024-12-23 22:55"
+MERGE (n:Vehicle {id: "frame_6160_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_6160.jpg", n.time = "2024-12-23 22:55"
+MERGE (n:Gun {id: "frame_6170_gun1"}) ON CREATE SET n.frame = "frame_6170.jpg", n.time = "2024-12-23 22:58"
+MERGE (n:Vehicle {id: "frame_6170_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_6170.jpg", n.time = "2024-12-23 22:58"
+MERGE (n:Gun {id: "frame_6180_gun1"}) ON CREATE SET n.frame = "frame_6180.jpg", n.time = "2024-12-23 23:01"
+MERGE (n:Vehicle {id: "frame_6180_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_6180.jpg", n.time = "2024-12-23 23:01"
+MERGE (n:Vehicle {id: "frame_6190_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_6190.jpg", n.time = "2024-12-23 23:04"
+MERGE (n:Gun {id: "frame_6190_gun1"}) ON CREATE SET n.frame = "frame_6190.jpg", n.time = "2024-12-23 23:04"
+MERGE (n:Checkpoint {id: "frame_6190_checkpoint1"}) ON CREATE SET n.frame = "frame_6190.jpg", n.time = "2024-12-23 23:04"
+MERGE (n:Checkpoint {id: "frame_6200_checkpoint1"}) ON CREATE SET n.frame = "frame_6200.jpg", n.time = "2024-12-23 23:07"
+MERGE (n:Vehicle {id: "frame_6200_vehicle1"}) ON CREATE SET n.status = "Burning", n.frame = "frame_6200.jpg", n.time = "2024-12-23 23:07"
+MERGE (n:Vehicle {id: "frame_6210_burning"}) ON CREATE SET n.status = "burning", n.frame = "frame_6210.jpg", n.time = "2024-12-23 23:10"
+MERGE (n:Checkpoint {id: "frame_6210_sandbags"}) ON CREATE SET n.frame = "frame_6210.jpg", n.time = "2024-12-23 23:10"
+MERGE (n:Checkpoint {id: "frame_6220_checkpoint_1"}) ON CREATE SET n.frame = "frame_6220.jpg", n.time = "2024-12-23 23:13"
+MERGE (n:Vehicle {id: "frame_6220_vehicle_1"}) ON CREATE SET n.status = "burning", n.frame = "frame_6220.jpg", n.time = "2024-12-23 23:13"
+MERGE (n:Gun {id: "frame_6220_gun_1"}) ON CREATE SET n.frame = "frame_6220.jpg", n.time = "2024-12-23 23:13"
+MERGE (n:Gun {id: "frame_6230_gun1"}) ON CREATE SET n.frame = "frame_6230", n.time = "2024-12-23 23:16"
+MERGE (n:Vehicle {id: "frame_6230_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_6230", n.time = "2024-12-23 23:16"
+MERGE (n:Checkpoint {id: "frame_6230_checkpoint1"}) ON CREATE SET n.frame = "frame_6230", n.time = "2024-12-23 23:16"
+MERGE (n:Soldier {id: "frame_6240_soldier1"}) ON CREATE SET n.status = "dead", n.frame = "frame_6240", n.time = "2024-12-23 23:19"
+MERGE (n:Gun {id: "frame_6240_gun1"}) ON CREATE SET n.frame = "frame_6240", n.time = "2024-12-23 23:19"
+MERGE (n:Vehicle {id: "frame_6240_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_6240", n.time = "2024-12-23 23:19"
+MERGE (n:Checkpoint {id: "frame_6240_checkpoint1"}) ON CREATE SET n.frame = "frame_6240", n.time = "2024-12-23 23:19"
+MERGE (n:Soldier {id: "frame_6460_soldier1"}) ON CREATE SET n.status = "lying on the ground", n.frame = "frame_6460.jpg", n.time = "2024-12-23 23:22"
+MERGE (n:Gun {id: "frame_6460_gun1"}) ON CREATE SET n.frame = "frame_6460.jpg", n.time = "2024-12-23 23:22"
+MERGE (n:Checkpoint {id: "frame_6460_checkpoint1"}) ON CREATE SET n.frame = "frame_6460.jpg", n.time = "2024-12-23 23:22"
+MERGE (n:Soldier {id: "frame_6470-soldier1"}) ON CREATE SET n.status = "alive", n.frame = "frame_6470.jpg", n.time = "2024-12-23 23:25"
+MERGE (n:Soldier {id: "frame_6470-soldier2"}) ON CREATE SET n.status = "dead", n.frame = "frame_6470.jpg", n.time = "2024-12-23 23:25"
+MERGE (n:Gun {id: "frame_6470-gun1"}) ON CREATE SET n.frame = "frame_6470.jpg", n.time = "2024-12-23 23:25"
+MERGE (n:Checkpoint {id: "frame_6470-checkpoint1"}) ON CREATE SET n.frame = "frame_6470.jpg", n.time = "2024-12-23 23:25"
+MERGE (n:Soldier {id: "frame_6480_dead_soldier"}) ON CREATE SET n.status = "deceased", n.frame = "frame_6480.jpg", n.time = "2024-12-23 23:28"
+MERGE (n:Gun {id: "frame_6480_gun"}) ON CREATE SET n.frame = "frame_6480.jpg", n.time = "2024-12-23 23:28"
+MERGE (n:Checkpoint {id: "frame_6480_checkpoint"}) ON CREATE SET n.frame = "frame_6480.jpg", n.time = "2024-12-23 23:28"
+MERGE (n:Soldier {id: "frame_6490_dead_soldier"}) ON CREATE SET n.status = "dead", n.frame = "frame_6490.jpg", n.time = "2024-12-23 23:31"
+MERGE (n:Gun {id: "frame_6490_foreground_gun"}) ON CREATE SET n.frame = "frame_6490.jpg", n.time = "2024-12-23 23:31"
+MERGE (n:Checkpoint {id: "frame_6490_checkpoint"}) ON CREATE SET n.frame = "frame_6490.jpg", n.time = "2024-12-23 23:31"
+MERGE (n:Soldier {id: "frame_6500_soldier1"}) ON CREATE SET n.status = "dead", n.frame = "frame_6500.jpg", n.time = "2024-12-23 23:34"
+MERGE (n:Gun {id: "frame_6500_gun1"}) ON CREATE SET n.frame = "frame_6500.jpg", n.time = "2024-12-23 23:34"
+MERGE (n:Checkpoint {id: "frame_6500_checkpoint1"}) ON CREATE SET n.frame = "frame_6500.jpg", n.time = "2024-12-23 23:34"
+MERGE (n:Soldier {id: "frame_6510_soldier_present"}) ON CREATE SET n.status = "Present", n.frame = "frame_6510.jpg", n.time = "2024-12-23 23:37"
+MERGE (n:Soldier {id: "frame_6510_dead_soldier"}) ON CREATE SET n.status = "Dead", n.frame = "frame_6510.jpg", n.time = "2024-12-23 23:37"
+MERGE (n:Checkpoint {id: "frame_6510_checkpoint"}) ON CREATE SET n.frame = "frame_6510.jpg", n.time = "2024-12-23 23:37"
+MERGE (n:Gun {id: "frame_6510_gun"}) ON CREATE SET n.frame = "frame_6510.jpg", n.time = "2024-12-23 23:37"
+MERGE (n:Soldier {id: "frame_6520_dead_soldier"}) ON CREATE SET n.status = "dead", n.frame = "frame_6520.jpg", n.time = "2024-12-23 23:40"
+MERGE (n:Gun {id: "frame_6520_gun"}) ON CREATE SET n.frame = "frame_6520.jpg", n.time = "2024-12-23 23:40"
+MERGE (n:Checkpoint {id: "frame_6520_checkpoint"}) ON CREATE SET n.frame = "frame_6520.jpg", n.time = "2024-12-23 23:40"
+MERGE (n:Soldier {id: "frame_6530_deadSoldier"}) ON CREATE SET n.status = "dead", n.frame = "frame_6530.jpg", n.time = "2024-12-23 23:43"
+MERGE (n:Soldier {id: "frame_6530_soldierWithGun"}) ON CREATE SET n.status = "standing", n.frame = "frame_6530.jpg", n.time = "2024-12-23 23:43"
+MERGE (n:Gun {id: "frame_6530_gun"}) ON CREATE SET n.frame = "frame_6530.jpg", n.time = "2024-12-23 23:43"
+MERGE (n:Checkpoint {id: "frame_6530_checkpointSandbags"}) ON CREATE SET n.frame = "frame_6530.jpg", n.time = "2024-12-23 23:43"
+MERGE (n:Soldier {id: "frame_6540_dead_soldier"}) ON CREATE SET n.status = "dead", n.frame = "frame_6540.jpg", n.time = "2024-12-23 23:46"
+MERGE (n:Gun {id: "frame_6540_foreground_gun"}) ON CREATE SET n.frame = "frame_6540.jpg", n.time = "2024-12-23 23:46"
+MERGE (n:Checkpoint {id: "frame_6540_sandbag_checkpoint"}) ON CREATE SET n.frame = "frame_6540.jpg", n.time = "2024-12-23 23:46"
+MERGE (n:Vehicle {id: "frame_6540_burning_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_6540.jpg", n.time = "2024-12-23 23:46"
+MERGE (n:Soldier {id: "frame_6550_deadsoldier"}) ON CREATE SET n.status = "dead", n.frame = "frame_6550.jpg", n.time = "2024-12-23 23:49"
+MERGE (n:Gun {id: "frame_6550_gun"}) ON CREATE SET n.frame = "frame_6550.jpg", n.time = "2024-12-23 23:49"
+MERGE (n:Checkpoint {id: "frame_6550_checkpoint"}) ON CREATE SET n.frame = "frame_6550.jpg", n.time = "2024-12-23 23:49"
+MERGE (n:Vehicle {id: "frame_6550_burningvehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_6550.jpg", n.time = "2024-12-23 23:49"
+MERGE (n:Soldier {id: "frame_6560_soldier1"}) ON CREATE SET n.status = "dead", n.frame = "frame_6560.jpg", n.time = "2024-12-23 23:52"
+MERGE (n:Checkpoint {id: "frame_6560_checkpoint1"}) ON CREATE SET n.frame = "frame_6560.jpg", n.time = "2024-12-23 23:52"
+MERGE (n:Vehicle {id: "frame_6560_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_6560.jpg", n.time = "2024-12-23 23:52"
+MERGE (n:Soldier {id: "frame_6570_dead_soldier"}) ON CREATE SET n.status = "dead", n.frame = "frame_6570.jpg", n.time = "2024-12-23 23:55"
+MERGE (n:Checkpoint {id: "frame_6570_checkpoint"}) ON CREATE SET n.frame = "frame_6570.jpg", n.time = "2024-12-23 23:55"
+MERGE (n:Vehicle {id: "frame_6570_burning_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_6570.jpg", n.time = "2024-12-23 23:55"
+MERGE (n:Soldier {id: "frame_6580_dead_soldier"}) ON CREATE SET n.status = "motionless", n.frame = "frame_6580.jpg", n.time = "2024-12-23 23:58"
+MERGE (n:Checkpoint {id: "frame_6580_checkpoint"}) ON CREATE SET n.frame = "frame_6580.jpg", n.time = "2024-12-23 23:58"
+MERGE (n:Vehicle {id: "frame_6580_burning_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_6580.jpg", n.time = "2024-12-23 23:58"
+MERGE (n:Soldier {id: "frame_6590_dead_soldier"}) ON CREATE SET n.status = "dead", n.frame = "frame_6590.jpg", n.time = "2024-12-24 00:01"
+MERGE (n:Vehicle {id: "frame_6590_burning_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_6590.jpg", n.time = "2024-12-24 00:01"
+MERGE (n:Checkpoint {id: "frame_6590_checkpoint_area"}) ON CREATE SET n.frame = "frame_6590.jpg", n.time = "2024-12-24 00:01"
+MERGE (n:Soldier {id: "frame_6600_dead_soldier"}) ON CREATE SET n.status = "dead", n.frame = "frame_6600.jpg", n.time = "2024-12-24 00:04"
+MERGE (n:Checkpoint {id: "frame_6600_checkpoint"}) ON CREATE SET n.frame = "frame_6600.jpg", n.time = "2024-12-24 00:04"
+MERGE (n:Vehicle {id: "frame_6600_burning_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_6600.jpg", n.time = "2024-12-24 00:04"
+MERGE (n:Checkpoint {id: "checkpoint_frame6610"}) ON CREATE SET n.frame = "frame_6610.jpg", n.time = "2024-12-24 00:07"
+MERGE (n:Vehicle {id: "vehicle_frame6610"}) ON CREATE SET n.status = "burning", n.frame = "frame_6610.jpg", n.time = "2024-12-24 00:07"
+MERGE (n:Soldier {id: "frame_6620_unique_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_6620.jpg", n.time = "2024-12-24 00:10"
+MERGE (n:Soldier {id: "frame_6630_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_6630.jpg", n.time = "2024-12-24 00:13"
+MERGE (n:Gun {id: "frame_6630_gun1"}) ON CREATE SET n.frame = "frame_6630.jpg", n.time = "2024-12-24 00:13"
+MERGE (n:Checkpoint {id: "frame_6630_checkpoint1"}) ON CREATE SET n.frame = "frame_6630.jpg", n.time = "2024-12-24 00:13"
+MERGE (n:Vehicle {id: "frame_6630_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_6630.jpg", n.time = "2024-12-24 00:13"
+MERGE (n:Vehicle {id: "frame_6640_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_6640.jpg", n.time = "2024-12-24 00:16"
+MERGE (n:Checkpoint {id: "frame_6640_checkpoint1"}) ON CREATE SET n.frame = "frame_6640.jpg", n.time = "2024-12-24 00:16"
+MERGE (n:Soldier {id: "frame_6650_soldier1"}) ON CREATE SET n.status = "", n.frame = "frame_6650.jpg", n.time = "2024-12-24 00:19"
+MERGE (n:Gun {id: "frame_6650_gun1"}) ON CREATE SET n.frame = "frame_6650.jpg", n.time = "2024-12-24 00:19"
+MERGE (n:Vehicle {id: "frame_6650_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_6650.jpg", n.time = "2024-12-24 00:19"
+MERGE (n:Checkpoint {id: "frame_6650_checkpoint1"}) ON CREATE SET n.frame = "frame_6650.jpg", n.time = "2024-12-24 00:19"
+MERGE (n:Soldier {id: "frame_6660_soldier"}) ON CREATE SET n.status = "holding gun", n.frame = "frame_6660", n.time = "2024-12-24 00:22"
+MERGE (n:Gun {id: "frame_6660_gun"}) ON CREATE SET n.frame = "frame_6660", n.time = "2024-12-24 00:22"
+MERGE (n:Checkpoint {id: "frame_6660_checkpoint"}) ON CREATE SET n.frame = "frame_6660", n.time = "2024-12-24 00:22"
+MERGE (n:Vehicle {id: "frame_6660_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_6660", n.time = "2024-12-24 00:22"
+MERGE (n:Soldier {id: "frame_6670_soldier1"}) ON CREATE SET n.status = "holding gun", n.frame = "frame_6670.jpg", n.time = "2024-12-24 00:25"
+MERGE (n:Gun {id: "frame_6670_gun1"}) ON CREATE SET n.frame = "frame_6670.jpg", n.time = "2024-12-24 00:25"
+MERGE (n:Soldier {id: "frame_6680_soldier1"}) ON CREATE SET n.status = "foreground", n.frame = "frame_6680.jpg", n.time = "2024-12-24 00:28"
+MERGE (n:Soldier {id: "frame_6680_soldier2"}) ON CREATE SET n.status = "further ahead", n.frame = "frame_6680.jpg", n.time = "2024-12-24 00:28"
+MERGE (n:Checkpoint {id: "frame_6680_checkpoint1"}) ON CREATE SET n.frame = "frame_6680.jpg", n.time = "2024-12-24 00:28"
+MERGE (n:Vehicle {id: "frame_6680_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_6680.jpg", n.time = "2024-12-24 00:28"
+MERGE (n:Soldier {id: "frame_6690_soldier1"}) ON CREATE SET n.status = "foreground", n.frame = "frame_6690.jpg", n.time = "2024-12-24 00:31"
+MERGE (n:Soldier {id: "frame_6690_soldier2"}) ON CREATE SET n.status = "mid-ground", n.frame = "frame_6690.jpg", n.time = "2024-12-24 00:31"
+MERGE (n:Checkpoint {id: "frame_6690_checkpoint"}) ON CREATE SET n.frame = "frame_6690.jpg", n.time = "2024-12-24 00:31"
+MERGE (n:Vehicle {id: "frame_6690_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_6690.jpg", n.time = "2024-12-24 00:31"
+MERGE (n:Soldier {id: "frame_6700_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_6700.jpg", n.time = "2024-12-24 00:34"
+MERGE (n:Gun {id: "frame_6700_gun1"}) ON CREATE SET n.frame = "frame_6700.jpg", n.time = "2024-12-24 00:34"
+MERGE (n:Checkpoint {id: "frame_6700_checkpoint1"}) ON CREATE SET n.frame = "frame_6700.jpg", n.time = "2024-12-24 00:34"
+MERGE (n:Vehicle {id: "frame_6700_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_6700.jpg", n.time = "2024-12-24 00:34"
+MERGE (n:Soldier {id: "frame_6710_soldier1"}) ON CREATE SET n.status = "", n.frame = "frame_6710.jpg", n.time = "2024-12-24 00:37"
+MERGE (n:Gun {id: "frame_6710_gun1"}) ON CREATE SET n.frame = "frame_6710.jpg", n.time = "2024-12-24 00:37"
+MERGE (n:Checkpoint {id: "frame_6710_checkpoint1"}) ON CREATE SET n.frame = "frame_6710.jpg", n.time = "2024-12-24 00:37"
+MERGE (n:Soldier {id: "frame_6720_soldier1"}) ON CREATE SET n.status = "foreground", n.frame = "frame_6720.jpg", n.time = "2024-12-24 00:40"
+MERGE (n:Soldier {id: "frame_6720_soldier2"}) ON CREATE SET n.status = "background", n.frame = "frame_6720.jpg", n.time = "2024-12-24 00:40"
+MERGE (n:Gun {id: "frame_6720_gun1"}) ON CREATE SET n.frame = "frame_6720.jpg", n.time = "2024-12-24 00:40"
+MERGE (n:Checkpoint {id: "frame_6720_checkpoint1"}) ON CREATE SET n.frame = "frame_6720.jpg", n.time = "2024-12-24 00:40"
+MERGE (n:Soldier {id: "frame_6730_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_6730.jpg", n.time = "2024-12-24 00:43"
+MERGE (n:Soldier {id: "frame_6730_soldier2"}) ON CREATE SET n.status = "standing", n.frame = "frame_6730.jpg", n.time = "2024-12-24 00:43"
+MERGE (n:Checkpoint {id: "frame_6730_checkpoint1"}) ON CREATE SET n.frame = "frame_6730.jpg", n.time = "2024-12-24 00:43"
+MERGE (n:Soldier {id: "frame_6740_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_6740.jpg", n.time = "2024-12-24 00:46"
+MERGE (n:Gun {id: "frame_6740_gun1"}) ON CREATE SET n.frame = "frame_6740.jpg", n.time = "2024-12-24 00:46"
+MERGE (n:Checkpoint {id: "frame_6740_checkpoint1"}) ON CREATE SET n.frame = "frame_6740.jpg", n.time = "2024-12-24 00:46"
+MERGE (n:Soldier {id: "frame_6790_soldier1"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_6790.jpg", n.time = "2024-12-24 01:01"
+MERGE (n:Soldier {id: "frame_6790_soldier2"}) ON CREATE SET n.status = "standing", n.frame = "frame_6790.jpg", n.time = "2024-12-24 01:01"
+MERGE (n:Gun {id: "frame_6790_gun1"}) ON CREATE SET n.frame = "frame_6790.jpg", n.time = "2024-12-24 01:01"
+MERGE (n:Checkpoint {id: "frame_6790_checkpoint1"}) ON CREATE SET n.frame = "frame_6790.jpg", n.time = "2024-12-24 01:01"
+MERGE (n:Gun {id: "frame_7020_gun1"}) ON CREATE SET n.frame = "frame_7020.jpg", n.time = "2024-12-24 01:04"
+MERGE (n:Vehicle {id: "frame_7020_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7020.jpg", n.time = "2024-12-24 01:04"
+MERGE (n:Checkpoint {id: "frame_7020_checkpoint1"}) ON CREATE SET n.frame = "frame_7020.jpg", n.time = "2024-12-24 01:04"
+MERGE (n:Soldier {id: "frame_7030_soldier1"}) ON CREATE SET n.status = "holding gun", n.frame = "frame_7030.jpg", n.time = "2024-12-24 01:07"
+MERGE (n:Gun {id: "frame_7030_gun1"}) ON CREATE SET n.frame = "frame_7030.jpg", n.time = "2024-12-24 01:07"
+MERGE (n:Checkpoint {id: "frame_7030_checkpoint1"}) ON CREATE SET n.frame = "frame_7030.jpg", n.time = "2024-12-24 01:07"
+MERGE (n:Vehicle {id: "frame_7030_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7030.jpg", n.time = "2024-12-24 01:07"
+MERGE (n:Checkpoint {id: "frame_7040_checkpoint"}) ON CREATE SET n.frame = "frame_7040.jpg", n.time = "2024-12-24 01:10"
+MERGE (n:Gun {id: "frame_7040_gun"}) ON CREATE SET n.frame = "frame_7040.jpg", n.time = "2024-12-24 01:10"
+MERGE (n:Vehicle {id: "frame_7040_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_7040.jpg", n.time = "2024-12-24 01:10"
+MERGE (n:Gun {id: "frame_7050_gun1"}) ON CREATE SET n.frame = "frame_7050.jpg", n.time = "2024-12-24 01:13"
+MERGE (n:Checkpoint {id: "frame_7050_checkpoint1"}) ON CREATE SET n.frame = "frame_7050.jpg", n.time = "2024-12-24 01:13"
+MERGE (n:Vehicle {id: "frame_7050_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7050.jpg", n.time = "2024-12-24 01:13"
+MERGE (n:Soldier {id: "frame_7060_soldier1"}) ON CREATE SET n.status = "holding a gun", n.frame = "frame_7060.jpg", n.time = "2024-12-24 01:16"
+MERGE (n:Gun {id: "frame_7060_gun1"}) ON CREATE SET n.frame = "frame_7060.jpg", n.time = "2024-12-24 01:16"
+MERGE (n:Checkpoint {id: "frame_7060_checkpoint1"}) ON CREATE SET n.frame = "frame_7060.jpg", n.time = "2024-12-24 01:16"
+MERGE (n:Vehicle {id: "frame_7060_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7060.jpg", n.time = "2024-12-24 01:16"
+MERGE (n:Gun {id: "frame_7070_gun1"}) ON CREATE SET n.frame = "frame_7070.jpg", n.time = "2024-12-24 01:19"
+MERGE (n:Checkpoint {id: "frame_7070_checkpoint1"}) ON CREATE SET n.frame = "frame_7070.jpg", n.time = "2024-12-24 01:19"
+MERGE (n:Vehicle {id: "frame_7070_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7070.jpg", n.time = "2024-12-24 01:19"
+MERGE (n:Gun {id: "frame_7080.jpg_gun1"}) ON CREATE SET n.frame = "frame_7080.jpg", n.time = "2024-12-24 01:22"
+MERGE (n:Checkpoint {id: "frame_7080.jpg_checkpoint1"}) ON CREATE SET n.frame = "frame_7080.jpg", n.time = "2024-12-24 01:22"
+MERGE (n:Vehicle {id: "frame_7080.jpg_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7080.jpg", n.time = "2024-12-24 01:22"
+MERGE (n:Soldier {id: "frame_7090_soldier1"}) ON CREATE SET n.status = "holding gun", n.frame = "frame_7090.jpg", n.time = "2024-12-24 01:25"
+MERGE (n:Gun {id: "frame_7090_gun1"}) ON CREATE SET n.frame = "frame_7090.jpg", n.time = "2024-12-24 01:25"
+MERGE (n:Checkpoint {id: "frame_7090_checkpoint1"}) ON CREATE SET n.frame = "frame_7090.jpg", n.time = "2024-12-24 01:25"
+MERGE (n:Vehicle {id: "frame_7090_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7090.jpg", n.time = "2024-12-24 01:25"
+MERGE (n:Soldier {id: "frame_7410_soldier1"}) ON CREATE SET n.status = "at checkpoint", n.frame = "frame_7410.jpg", n.time = "2024-12-24 01:31"
+MERGE (n:Soldier {id: "frame_7410_soldier2"}) ON CREATE SET n.status = "at checkpoint", n.frame = "frame_7410.jpg", n.time = "2024-12-24 01:31"
+MERGE (n:Gun {id: "frame_7410_gun1"}) ON CREATE SET n.frame = "frame_7410.jpg", n.time = "2024-12-24 01:31"
+MERGE (n:Checkpoint {id: "frame_7410_checkpoint1"}) ON CREATE SET n.frame = "frame_7410.jpg", n.time = "2024-12-24 01:31"
+MERGE (n:Vehicle {id: "frame_7410_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7410.jpg", n.time = "2024-12-24 01:31"
+MERGE (n:Soldier {id: "frame_7420_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_7420.jpg", n.time = "2024-12-24 01:34"
+MERGE (n:Gun {id: "frame_7420_gun1"}) ON CREATE SET n.frame = "frame_7420.jpg", n.time = "2024-12-24 01:34"
+MERGE (n:Checkpoint {id: "frame_7420_checkpoint1"}) ON CREATE SET n.frame = "frame_7420.jpg", n.time = "2024-12-24 01:34"
+MERGE (n:Vehicle {id: "frame_7420_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7420.jpg", n.time = "2024-12-24 01:34"
+MERGE (n:Checkpoint {id: "frame_7430_check_1"}) ON CREATE SET n.frame = "frame_7430.jpg", n.time = "2024-12-24 01:37"
+MERGE (n:Vehicle {id: "frame_7430_vehicle_1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7430.jpg", n.time = "2024-12-24 01:37"
+MERGE (n:Soldier {id: "frame_7430_soldier_1"}) ON CREATE SET n.status = "carrying gun", n.frame = "frame_7430.jpg", n.time = "2024-12-24 01:37"
+MERGE (n:Gun {id: "frame_7430_gun_1"}) ON CREATE SET n.frame = "frame_7430.jpg", n.time = "2024-12-24 01:37"
+MERGE (n:Soldier {id: "frame_7440_soldier1"}) ON CREATE SET n.status = "at_checkpoint", n.frame = "frame_7440.jpg", n.time = "2024-12-24 01:40"
+MERGE (n:Gun {id: "frame_7440_gun1"}) ON CREATE SET n.frame = "frame_7440.jpg", n.time = "2024-12-24 01:40"
+MERGE (n:Checkpoint {id: "frame_7440_checkpoint1"}) ON CREATE SET n.frame = "frame_7440.jpg", n.time = "2024-12-24 01:40"
+MERGE (n:Vehicle {id: "frame_7440_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7440.jpg", n.time = "2024-12-24 01:40"
+MERGE (n:Soldier {id: "frame_7450_soldier1"}) ON CREATE SET n.status = "", n.frame = "frame_7450.jpg", n.time = "2024-12-24 01:43"
+MERGE (n:Gun {id: "frame_7450_gun1"}) ON CREATE SET n.frame = "frame_7450.jpg", n.time = "2024-12-24 01:43"
+MERGE (n:Checkpoint {id: "frame_7450_checkpoint1"}) ON CREATE SET n.frame = "frame_7450.jpg", n.time = "2024-12-24 01:43"
+MERGE (n:Soldier {id: "frame_7460_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_7460.jpg", n.time = "2024-12-24 01:46"
+MERGE (n:Checkpoint {id: "frame_7460_checkpoint1"}) ON CREATE SET n.frame = "frame_7460.jpg", n.time = "2024-12-24 01:46"
+MERGE (n:Vehicle {id: "frame_7460_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7460.jpg", n.time = "2024-12-24 01:46"
+MERGE (n:Gun {id: "frame_7460_gun1"}) ON CREATE SET n.frame = "frame_7460.jpg", n.time = "2024-12-24 01:46"
+MERGE (n:Soldier {id: "frame_7490_soldier1"}) ON CREATE SET n.status = "behind sandbag", n.frame = "frame_7490.jpg", n.time = "2024-12-24 01:55"
+MERGE (n:Soldier {id: "frame_7490_soldier2"}) ON CREATE SET n.status = "holding gun", n.frame = "frame_7490.jpg", n.time = "2024-12-24 01:55"
+MERGE (n:Gun {id: "frame_7490_gun1"}) ON CREATE SET n.frame = "frame_7490.jpg", n.time = "2024-12-24 01:55"
+MERGE (n:Checkpoint {id: "frame_7490_checkpoint1"}) ON CREATE SET n.frame = "frame_7490.jpg", n.time = "2024-12-24 01:55"
+MERGE (n:Soldier {id: "frame_7500_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_7500.jpg", n.time = "2024-12-24 01:58"
+MERGE (n:Checkpoint {id: "frame_7500_checkpoint1"}) ON CREATE SET n.frame = "frame_7500.jpg", n.time = "2024-12-24 01:58"
+MERGE (n:Gun {id: "frame_7500_gun1"}) ON CREATE SET n.frame = "frame_7500.jpg", n.time = "2024-12-24 01:58"
+MERGE (n:Soldier {id: "frame_7510_soldier1"}) ON CREATE SET n.status = "Present, partially visible on the left side", n.frame = "frame_7510.jpg", n.time = "2024-12-24 02:01"
+MERGE (n:Checkpoint {id: "frame_7510_checkpoint1"}) ON CREATE SET n.frame = "frame_7510.jpg", n.time = "2024-12-24 02:01"
+MERGE (n:Vehicle {id: "frame_7510_vehicle1"}) ON CREATE SET n.status = "Burning", n.frame = "frame_7510.jpg", n.time = "2024-12-24 02:01"
+MERGE (n:Gun {id: "frame_7510_gun1"}) ON CREATE SET n.frame = "frame_7510.jpg", n.time = "2024-12-24 02:01"
+MERGE (n:Gun {id: "frame_7520_gun1"}) ON CREATE SET n.frame = "frame_7520.jpg", n.time = "2024-12-24 02:04"
+MERGE (n:Checkpoint {id: "frame_7520_checkpoint1"}) ON CREATE SET n.frame = "frame_7520.jpg", n.time = "2024-12-24 02:04"
+MERGE (n:Vehicle {id: "frame_7520_vehicle1"}) ON CREATE SET n.status = "Burning", n.frame = "frame_7520.jpg", n.time = "2024-12-24 02:04"
+MERGE (n:Soldier {id: "frame_7540_soldier1"}) ON CREATE SET n.status = "foreground", n.frame = "frame_7540.jpg", n.time = "2024-12-24 02:07"
+MERGE (n:Gun {id: "frame_7540_gun1"}) ON CREATE SET n.frame = "frame_7540.jpg", n.time = "2024-12-24 02:07"
+MERGE (n:Checkpoint {id: "frame_7540_checkpoint1"}) ON CREATE SET n.frame = "frame_7540.jpg", n.time = "2024-12-24 02:07"
+MERGE (n:Vehicle {id: "frame_7540_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7540.jpg", n.time = "2024-12-24 02:07"
+MERGE (n:Soldier {id: "frame_7550_soldier1"}) ON CREATE SET n.status = "holding gun", n.frame = "frame_7550.jpg", n.time = "2024-12-24 02:10"
+MERGE (n:Gun {id: "frame_7550_gun1"}) ON CREATE SET n.frame = "frame_7550.jpg", n.time = "2024-12-24 02:10"
+MERGE (n:Checkpoint {id: "frame_7550_checkpoint1"}) ON CREATE SET n.frame = "frame_7550.jpg", n.time = "2024-12-24 02:10"
+MERGE (n:Vehicle {id: "frame_7550_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7550.jpg", n.time = "2024-12-24 02:10"
+MERGE (n:Checkpoint {id: "frame_7560_checkpoint1"}) ON CREATE SET n.frame = "frame_7560.jpg", n.time = "2024-12-24 02:13"
+MERGE (n:Checkpoint {id: "checkpoint_frame7570"}) ON CREATE SET n.frame = "frame_7570.jpg", n.time = "2024-12-24 02:16"
+MERGE (n:Checkpoint {id: "frame_7580_checkpoint"}) ON CREATE SET n.frame = "frame_7580.jpg", n.time = "2024-12-24 02:19"
+MERGE (n:Vehicle {id: "frame_7580_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_7580.jpg", n.time = "2024-12-24 02:19"
+MERGE (n:Checkpoint {id: "frame_7590_checkpoint1"}) ON CREATE SET n.frame = "frame_7590.jpg", n.time = "2024-12-24 02:22"
+MERGE (n:Vehicle {id: "frame_7590_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7590.jpg", n.time = "2024-12-24 02:22"
+MERGE (n:Soldier {id: "frame_7600_soldier1"}) ON CREATE SET n.status = "dead", n.frame = "frame_7600.jpg", n.time = "2024-12-24 02:25"
+MERGE (n:Gun {id: "frame_7600_gun1"}) ON CREATE SET n.frame = "frame_7600.jpg", n.time = "2024-12-24 02:25"
+MERGE (n:Checkpoint {id: "frame_7600_checkpoint1"}) ON CREATE SET n.frame = "frame_7600.jpg", n.time = "2024-12-24 02:25"
+MERGE (n:Vehicle {id: "frame_7600_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7600.jpg", n.time = "2024-12-24 02:25"
+MERGE (n:Checkpoint {id: "frame_7610_checkpoint1"}) ON CREATE SET n.frame = "frame_7610.jpg", n.time = "2024-12-24 02:28"
+MERGE (n:Vehicle {id: "frame_7610_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7610.jpg", n.time = "2024-12-24 02:28"
+MERGE (n:Gun {id: "frame_7610_gun1"}) ON CREATE SET n.frame = "frame_7610.jpg", n.time = "2024-12-24 02:28"
+MERGE (n:Soldier {id: "frame_7610_soldier1"}) ON CREATE SET n.status = "dead", n.frame = "frame_7610.jpg", n.time = "2024-12-24 02:28"
+MERGE (n:Vehicle {id: "frame_7620_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_7620.jpg", n.time = "2024-12-24 02:31"
+MERGE (n:Gun {id: "frame_7620_gun"}) ON CREATE SET n.frame = "frame_7620.jpg", n.time = "2024-12-24 02:31"
+MERGE (n:Checkpoint {id: "frame_7620_checkpoint"}) ON CREATE SET n.frame = "frame_7620.jpg", n.time = "2024-12-24 02:31"
+MERGE (n:Vehicle {id: "frame_7630_vehicle1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7630", n.time = "2024-12-24 02:34"
+MERGE (n:Soldier {id: "frame_7640_dead_soldier"}) ON CREATE SET n.status = "dead", n.frame = "frame_7640.jpg", n.time = "2024-12-24 02:37"
+MERGE (n:Checkpoint {id: "frame_7640_checkpoint"}) ON CREATE SET n.frame = "frame_7640.jpg", n.time = "2024-12-24 02:37"
+MERGE (n:Vehicle {id: "frame_7640_burning_vehicle"}) ON CREATE SET n.status = "burning", n.frame = "frame_7640.jpg", n.time = "2024-12-24 02:37"
+MERGE (n:Checkpoint {id: "frame_7650_checkpoint_1"}) ON CREATE SET n.frame = "7650.jpg", n.time = "2024-12-24 02:40"
+MERGE (n:Soldier {id: "frame_7650_soldier_1"}) ON CREATE SET n.status = "Dead", n.frame = "7650.jpg", n.time = "2024-12-24 02:40"
+MERGE (n:Vehicle {id: "frame_7650_vehicle_1"}) ON CREATE SET n.status = "Burning", n.frame = "7650.jpg", n.time = "2024-12-24 02:40"
+MERGE (n:Checkpoint {id: "frame_7660_checkpoint_1"}) ON CREATE SET n.frame = "frame_7660.jpg", n.time = "2024-12-24 02:43"
+MERGE (n:Vehicle {id: "frame_7660_vehicle_1"}) ON CREATE SET n.status = "burning", n.frame = "frame_7660.jpg", n.time = "2024-12-24 02:43"
+MERGE (n:Soldier {id: "frame_7660_soldier_1"}) ON CREATE SET n.status = "dead", n.frame = "frame_7660.jpg", n.time = "2024-12-24 02:43"
+MERGE (n:Soldier {id: "frame_7670_soldier1"}) ON CREATE SET n.status = "dead", n.frame = "frame_7670.jpg", n.time = "2024-12-24 02:46"
+MERGE (n:Vehicle {id: "frame_7670_vehicle1"}) ON CREATE SET n.status = "on fire", n.frame = "frame_7670.jpg", n.time = "2024-12-24 02:46"
+MERGE (n:Soldier {id: "frame_8540_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_8540.jpg", n.time = "2024-12-24 02:49"
+MERGE (n:Vehicle {id: "frame_8540_vehicle1"}) ON CREATE SET n.status = "kicking up dust", n.frame = "frame_8540.jpg", n.time = "2024-12-24 02:49"
+MERGE (n:Soldier {id: "frame_8560_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_8560.jpg", n.time = "2024-12-24 02:55"
+MERGE (n:Soldier {id: "frame_8570_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_8570.jpg", n.time = "2024-12-24 02:58"
+MERGE (n:Soldier {id: "frame_8570_soldier2"}) ON CREATE SET n.status = "standing", n.frame = "frame_8570.jpg", n.time = "2024-12-24 02:58"
+MERGE (n:Soldier {id: "frame_8580_soldier1"}) ON CREATE SET n.status = "moving", n.frame = "frame_8580.jpg", n.time = "2024-12-24 03:01"
+MERGE (n:Soldier {id: "frame_8580_soldier2"}) ON CREATE SET n.status = "moving", n.frame = "frame_8580.jpg", n.time = "2024-12-24 03:01"
+MERGE (n:Vehicle {id: "frame_8580_vehicle1"}) ON CREATE SET n.status = "dusty", n.frame = "frame_8580.jpg", n.time = "2024-12-24 03:01"
+MERGE (n:Soldier {id: "frame_8590_soldier1"}) ON CREATE SET n.status = "distant view", n.frame = "frame_8590.jpg", n.time = "2024-12-24 03:04"
+MERGE (n:Vehicle {id: "frame_8590_vehicle1"}) ON CREATE SET n.status = "driving", n.frame = "frame_8590.jpg", n.time = "2024-12-24 03:04"
+MERGE (n:Vehicle {id: "frame_8610_vehicle_1"}) ON CREATE SET n.status = "not burning", n.frame = "frame_8610.jpg", n.time = "2024-12-24 03:10"
+MERGE (n:Soldier {id: "frame_8620_soldier1"}) ON CREATE SET n.status = "walking", n.frame = "frame_8620.jpg", n.time = "2024-12-24 03:13"
+MERGE (n:Soldier {id: "frame_8620_soldier2"}) ON CREATE SET n.status = "walking", n.frame = "frame_8620.jpg", n.time = "2024-12-24 03:13"
+MERGE (n:Vehicle {id: "frame_8620_vehicle1"}) ON CREATE SET n.status = "partially visible", n.frame = "frame_8620.jpg", n.time = "2024-12-24 03:13"
+MERGE (n:Soldier {id: "frame_8630_soldier1"}) ON CREATE SET n.status = "near roadside", n.frame = "frame_8630.jpg", n.time = "2024-12-24 03:16"
+MERGE (n:Vehicle {id: "frame_8630_vehicle1"}) ON CREATE SET n.status = "on road, creating dust cloud", n.frame = "frame_8630.jpg", n.time = "2024-12-24 03:16"
+MERGE (n:Soldier {id: "frame_8640_soldier1"}) ON CREATE SET n.status = "walking", n.frame = "frame_8640.jpg", n.time = "2024-12-24 03:19"
+MERGE (n:Soldier {id: "frame_8640_soldier2"}) ON CREATE SET n.status = "walking", n.frame = "frame_8640.jpg", n.time = "2024-12-24 03:19"
+MERGE (n:Soldier {id: "frame_8650_soldier1"}) ON CREATE SET n.status = "standing", n.frame = "frame_8650.jpg", n.time = "2024-12-24 03:22"
+MERGE (n:Soldier {id: "frame_8650_soldier2"}) ON CREATE SET n.status = "kneeling", n.frame = "frame_8650.jpg", n.time = "2024-12-24 03:22"
+MERGE (n:Soldier {id: "frame_8660_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_8660.jpg", n.time = "2024-12-24 03:25"
+MERGE (n:Soldier {id: "frame_8660_soldier2"}) ON CREATE SET n.status = "visible", n.frame = "frame_8660.jpg", n.time = "2024-12-24 03:25"
+MERGE (n:Soldier {id: "frame_8670_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_8670.jpg", n.time = "2024-12-24 03:28"
+MERGE (n:Soldier {id: "frame_8670_soldier2"}) ON CREATE SET n.status = "visible", n.frame = "frame_8670.jpg", n.time = "2024-12-24 03:28"
+MERGE (n:Soldier {id: "frame_8680_soldier1"}) ON CREATE SET n.status = "Present on the right side", n.frame = "frame_8680.jpg", n.time = "2024-12-24 03:31"
+MERGE (n:Soldier {id: "frame_8690_soldier1"}) ON CREATE SET n.status = "visible", n.frame = "frame_8690.jpg", n.time = "2024-12-24 03:34"
+MERGE (n:Gun {id: "frame_8690_gun1"}) ON CREATE SET n.frame = "frame_8690.jpg", n.time = "2024-12-24 03:34"
+MERGE (n:Soldier {id: "frame_8700_soldier1"}) ON CREATE SET n.status = "walking", n.frame = "frame_8700.jpg", n.time = "2024-12-24 03:37"
+MERGE (n:Vehicle {id: "frame_8710_vehicle_1"}) ON CREATE SET n.status = "burning", n.frame = "frame_8710.jpg", n.time = "2024-12-24 03:40"
+MERGE (a:Soldier {id: "frame_2650_soldier1"}) MERGE (b:Gun {id: "frame_2650_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2660_soldier1"}) MERGE (b:Gun {id: "frame_2660_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2720_soldier1"}) MERGE (b:Gun {id: "frame_2720_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2750_soldier1"}) MERGE (b:Gun {id: "frame_2750_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2760_soldier1"}) MERGE (b:Gun {id: "frame_2760_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2800_soldier2"}) MERGE (b:Gun {id: "frame_2800_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2810_soldier_kneeling"}) MERGE (b:Gun {id: "frame_2810_gun_foreground"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2810_soldier_standing"}) MERGE (b:Gun {id: "frame_2810_gun_foreground"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_2820_soldier1"}) MERGE (b:Gun {id: "frame_2820_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2820_soldier2"}) MERGE (b:Gun {id: "frame_2820_gun2"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2850_soldier1"}) MERGE (b:Gun {id: "frame_2850_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2870_soldier1"}) MERGE (b:Gun {id: "frame_2870_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2880_soldier1"}) MERGE (b:Gun {id: "frame_2880_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame2890_soldier1"}) MERGE (b:Gun {id: "frame2890_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame2890_soldier2"}) MERGE (b:Gun {id: "frame2890_gun2"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2940_soldier1"}) MERGE (b:Gun {id: "frame_2940_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2950_soldier1"}) MERGE (b:Gun {id: "frame_2950_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2950_soldier2"}) MERGE (b:Gun {id: "frame_2950_gun2"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2960_kneeling_soldier_1"}) MERGE (b:Gun {id: "frame_2960_gun_1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2960_standing_soldier_2"}) MERGE (b:Gun {id: "frame_2960_gun_2"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_2970_soldier1"}) MERGE (b:Gun {id: "frame_2970_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3000_soldier1"}) MERGE (b:Gun {id: "frame_3000_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3010_soldier1"}) MERGE (b:Gun {id: "frame_3010_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3020_soldier1"}) MERGE (b:Gun {id: "frame_3020_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3030_soldier1"}) MERGE (b:Gun {id: "frame_3030_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3040_soldier1"}) MERGE (b:Gun {id: "frame_3040_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3060_soldier1"}) MERGE (b:Gun {id: "frame_3060_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3070_soldier1"}) MERGE (b:Gun {id: "frame_3070_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3080_soldier1"}) MERGE (b:Gun {id: "frame_3080_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3080_soldier2"}) MERGE (b:Gun {id: "frame_3080_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3090_soldier1"}) MERGE (b:Gun {id: "frame_3090_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3120_soldier1"}) MERGE (b:Gun {id: "frame_3120_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3180_soldier1"}) MERGE (b:Checkpoint {id: "frame_3180_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_3190_soldier1"}) MERGE (b:Checkpoint {id: "frame_3190_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_3330_soldier1"}) MERGE (b:Gun {id: "frame_3330_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3340_soldier1"}) MERGE (b:Gun {id: "frame_3340_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3360_soldier1"}) MERGE (b:Gun {id: "frame_3360_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3360_soldier1"}) MERGE (b:Vehicle {id: "frame_3360_vehicle1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_3370_soldier"}) MERGE (b:Gun {id: "frame_3370_gun"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3370_soldier"}) MERGE (b:Checkpoint {id: "frame_3370_checkpoint"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Gun {id: "frame_3370_gun"}) MERGE (b:Checkpoint {id: "frame_3370_checkpoint"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_3380_soldier1"}) MERGE (b:Checkpoint {id: "frame_3380_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_3380_soldier1"}) MERGE (b:Gun {id: "frame_3380_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3390_soldier1"}) MERGE (b:Gun {id: "frame_3390_gun"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3390_kneeling_soldier"}) MERGE (b:Gun {id: "frame_3390_gun"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3400_soldier1"}) MERGE (b:Gun {id: "frame_3400_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3400_soldier1"}) MERGE (b:Checkpoint {id: "frame_3400_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_3400_soldier1"}) MERGE (b:Checkpoint {id: "frame_3400_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_3420_kneelingSoldier"}) MERGE (b:Checkpoint {id: "frame_3420_nearBuilding"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Tank {id: "frame_3420_tank"}) MERGE (b:Checkpoint {id: "frame_3420_nearBuilding"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_3440_soldier1"}) MERGE (b:Gun {id: "frame_3440_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3500_soldier1"}) MERGE (b:Gun {id: "frame_3500_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3670_soldier"}) MERGE (b:Gun {id: "frame_3670_gun"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Vehicle {id: "frame_3670_vehicle"}) MERGE (b:Checkpoint {id: "frame_3670_checkpoint"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_3730_soldier1"}) MERGE (b:Gun {id: "frame_3730_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3730_soldier1"}) MERGE (b:Checkpoint {id: "frame_3730_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Gun {id: "frame_3730_gun1"}) MERGE (b:Checkpoint {id: "frame_3730_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_3820_soldier1"}) MERGE (b:Gun {id: "frame_3820_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3830_soldier1"}) MERGE (b:Gun {id: "frame_3830_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3890_soldier1"}) MERGE (b:Gun {id: "frame_3890_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3910_soldier"}) MERGE (b:Gun {id: "frame_3910_gun"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3920_soldier1"}) MERGE (b:Gun {id: "frame_3920_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3930_soldier1"}) MERGE (b:Gun {id: "frame_3930_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_3950_soldier1"}) MERGE (b:Gun {id: "frame_3950_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Gun {id: "frame_4370_gun1"}) MERGE (b:Checkpoint {id: "frame_4370_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_4420_S1"}) MERGE (b:Gun {id: "frame_4420_G1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Gun {id: "frame_4490_gun1"}) MERGE (b:Checkpoint {id: "frame_4490_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_4530_soldier"}) MERGE (b:Gun {id: "frame_4530_gun"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_4560_soldier1"}) MERGE (b:Gun {id: "frame_4560_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_4560_soldier1"}) MERGE (b:Checkpoint {id: "frame_4560_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Gun {id: "frame_4560_gun1"}) MERGE (b:Checkpoint {id: "frame_4560_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Tank {id: "frame_4560_tank1"}) MERGE (b:Checkpoint {id: "frame_4560_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_4730_soldier1"}) MERGE (b:Gun {id: "frame_4730_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_4730_soldier1"}) MERGE (b:Checkpoint {id: "frame_4730_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Gun {id: "frame_4730_gun1"}) MERGE (b:Checkpoint {id: "frame_4730_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_4750_soldier1"}) MERGE (b:Gun {id: "frame_4750_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_4790_soldier1"}) MERGE (b:Gun {id: "frame_4790_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_4800_soldier"}) MERGE (b:Gun {id: "frame_4800_gun"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_5090_soldier1"}) MERGE (b:Gun {id: "frame_5090_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_5280_soldier1"}) MERGE (b:Gun {id: "frame_5280_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_5290_soldier1"}) MERGE (b:Checkpoint {id: "frame_5290_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_5290_soldier1"}) MERGE (b:Gun {id: "frame_5290_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Gun {id: "frame_5300_gun1"}) MERGE (b:Checkpoint {id: "frame_5300_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_5310_soldier1"}) MERGE (b:Gun {id: "frame_5310_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_5590_soldier1"}) MERGE (b:Gun {id: "frame_5590_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_5600_soldier1"}) MERGE (b:Gun {id: "frame_5600_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_5610_soldier1"}) MERGE (b:Gun {id: "frame_5610_gun1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Gun {id: "frame_6190_gun1"}) MERGE (b:Checkpoint {id: "frame_6190_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_6240_soldier1"}) MERGE (b:Gun {id: "frame_6240_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_6240_soldier1"}) MERGE (b:Checkpoint {id: "frame_6240_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6460_soldier1"}) MERGE (b:Gun {id: "frame_6460_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_6460_soldier1"}) MERGE (b:Checkpoint {id: "frame_6460_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Gun {id: "frame_6460_gun1"}) MERGE (b:Checkpoint {id: "frame_6460_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_6470-soldier1"}) MERGE (b:Gun {id: "frame_6470-gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_6470-soldier1"}) MERGE (b:Checkpoint {id: "frame_6470-checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6470-soldier2"}) MERGE (b:Checkpoint {id: "frame_6470-checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6480_dead_soldier"}) MERGE (b:Checkpoint {id: "frame_6480_checkpoint"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Gun {id: "frame_6480_gun"}) MERGE (b:Checkpoint {id: "frame_6480_checkpoint"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_6490_dead_soldier"}) MERGE (b:Checkpoint {id: "frame_6490_checkpoint"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Gun {id: "frame_6490_foreground_gun"}) MERGE (b:Checkpoint {id: "frame_6490_checkpoint"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_6500_soldier1"}) MERGE (b:Checkpoint {id: "frame_6500_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Gun {id: "frame_6500_gun1"}) MERGE (b:Checkpoint {id: "frame_6500_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_6510_soldier_present"}) MERGE (b:Gun {id: "frame_6510_gun"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_6510_soldier_present"}) MERGE (b:Checkpoint {id: "frame_6510_checkpoint"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6510_soldier_present"}) MERGE (b:Checkpoint {id: "frame_6510_checkpoint"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Gun {id: "frame_6510_gun"}) MERGE (b:Checkpoint {id: "frame_6510_checkpoint"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_6520_dead_soldier"}) MERGE (b:Checkpoint {id: "frame_6520_checkpoint"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6530_soldierWithGun"}) MERGE (b:Gun {id: "frame_6530_gun"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_6530_soldierWithGun"}) MERGE (b:Checkpoint {id: "frame_6530_checkpointSandbags"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6530_soldierWithGun"}) MERGE (b:Checkpoint {id: "frame_6530_checkpointSandbags"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Gun {id: "frame_6530_gun"}) MERGE (b:Checkpoint {id: "frame_6530_checkpointSandbags"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_6540_dead_soldier"}) MERGE (b:Gun {id: "frame_6540_foreground_gun"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_6540_dead_soldier"}) MERGE (b:Checkpoint {id: "frame_6540_sandbag_checkpoint"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6560_soldier1"}) MERGE (b:Checkpoint {id: "frame_6560_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Vehicle {id: "frame_6560_vehicle1"}) MERGE (b:Checkpoint {id: "frame_6560_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6570_dead_soldier"}) MERGE (b:Checkpoint {id: "frame_6570_checkpoint"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6580_dead_soldier"}) MERGE (b:Checkpoint {id: "frame_6580_checkpoint"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6590_dead_soldier"}) MERGE (b:Checkpoint {id: "frame_6590_checkpoint_area"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Vehicle {id: "frame_6590_burning_vehicle"}) MERGE (b:Checkpoint {id: "frame_6590_checkpoint_area"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6600_dead_soldier"}) MERGE (b:Checkpoint {id: "frame_6600_checkpoint"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6600_dead_soldier"}) MERGE (b:Checkpoint {id: "frame_6600_checkpoint"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_6630_soldier1"}) MERGE (b:Gun {id: "frame_6630_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_6630_soldier1"}) MERGE (b:Checkpoint {id: "frame_6630_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6650_soldier1"}) MERGE (b:Gun {id: "frame_6650_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_6650_soldier1"}) MERGE (b:Checkpoint {id: "frame_6650_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6660_soldier"}) MERGE (b:Gun {id: "frame_6660_gun"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_6660_soldier"}) MERGE (b:Checkpoint {id: "frame_6660_checkpoint"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6670_soldier1"}) MERGE (b:Gun {id: "frame_6670_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_6680_soldier1"}) MERGE (b:Checkpoint {id: "frame_6680_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6680_soldier2"}) MERGE (b:Checkpoint {id: "frame_6680_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6690_soldier1"}) MERGE (b:Checkpoint {id: "frame_6690_checkpoint"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6690_soldier2"}) MERGE (b:Checkpoint {id: "frame_6690_checkpoint"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6700_soldier1"}) MERGE (b:Gun {id: "frame_6700_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_6700_soldier1"}) MERGE (b:Checkpoint {id: "frame_6700_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6710_soldier1"}) MERGE (b:Gun {id: "frame_6710_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_6710_soldier1"}) MERGE (b:Checkpoint {id: "frame_6710_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6720_soldier2"}) MERGE (b:Gun {id: "frame_6720_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_6720_soldier1"}) MERGE (b:Checkpoint {id: "frame_6720_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6720_soldier2"}) MERGE (b:Checkpoint {id: "frame_6720_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6730_soldier1"}) MERGE (b:Checkpoint {id: "frame_6730_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6730_soldier2"}) MERGE (b:Checkpoint {id: "frame_6730_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6740_soldier1"}) MERGE (b:Checkpoint {id: "frame_6740_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6740_soldier1"}) MERGE (b:Gun {id: "frame_6740_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_6790_soldier2"}) MERGE (b:Gun {id: "frame_6790_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_6790_soldier1"}) MERGE (b:Checkpoint {id: "frame_6790_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_6790_soldier2"}) MERGE (b:Checkpoint {id: "frame_6790_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_7030_soldier1"}) MERGE (b:Gun {id: "frame_7030_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_7030_soldier1"}) MERGE (b:Checkpoint {id: "frame_7030_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_7060_soldier1"}) MERGE (b:Gun {id: "frame_7060_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_7060_soldier1"}) MERGE (b:Checkpoint {id: "frame_7060_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Gun {id: "frame_7080.jpg_gun1"}) MERGE (b:Checkpoint {id: "frame_7080.jpg_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_7090_soldier1"}) MERGE (b:Gun {id: "frame_7090_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_7090_soldier1"}) MERGE (b:Checkpoint {id: "frame_7090_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_7410_soldier1"}) MERGE (b:Checkpoint {id: "frame_7410_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_7410_soldier2"}) MERGE (b:Checkpoint {id: "frame_7410_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Gun {id: "frame_7410_gun1"}) MERGE (b:Checkpoint {id: "frame_7410_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_7420_soldier1"}) MERGE (b:Gun {id: "frame_7420_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_7420_soldier1"}) MERGE (b:Checkpoint {id: "frame_7420_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_7430_soldier_1"}) MERGE (b:Gun {id: "frame_7430_gun_1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_7430_soldier_1"}) MERGE (b:Checkpoint {id: "frame_7430_check_1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_7440_soldier1"}) MERGE (b:Checkpoint {id: "frame_7440_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_7440_soldier1"}) MERGE (b:Gun {id: "frame_7440_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Gun {id: "frame_7440_gun1"}) MERGE (b:Checkpoint {id: "frame_7440_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_7450_soldier1"}) MERGE (b:Gun {id: "frame_7450_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_7450_soldier1"}) MERGE (b:Checkpoint {id: "frame_7450_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_7460_soldier1"}) MERGE (b:Checkpoint {id: "frame_7460_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Gun {id: "frame_7460_gun1"}) MERGE (b:Checkpoint {id: "frame_7460_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_7490_soldier2"}) MERGE (b:Gun {id: "frame_7490_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_7490_soldier1"}) MERGE (b:Checkpoint {id: "frame_7490_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_7490_soldier2"}) MERGE (b:Checkpoint {id: "frame_7490_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Gun {id: "frame_7490_gun1"}) MERGE (b:Checkpoint {id: "frame_7490_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_7500_soldier1"}) MERGE (b:Checkpoint {id: "frame_7500_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_7510_soldier1"}) MERGE (b:Gun {id: "frame_7510_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_7510_soldier1"}) MERGE (b:Checkpoint {id: "frame_7510_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_7540_soldier1"}) MERGE (b:Gun {id: "frame_7540_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_7540_soldier1"}) MERGE (b:Checkpoint {id: "frame_7540_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_7550_soldier1"}) MERGE (b:Gun {id: "frame_7550_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Soldier {id: "frame_7550_soldier1"}) MERGE (b:Checkpoint {id: "frame_7550_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Gun {id: "frame_7550_gun1"}) MERGE (b:Checkpoint {id: "frame_7550_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_7600_soldier1"}) MERGE (b:Checkpoint {id: "frame_7600_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Gun {id: "frame_7600_gun1"}) MERGE (b:Checkpoint {id: "frame_7600_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_7610_soldier1"}) MERGE (b:Checkpoint {id: "frame_7610_checkpoint1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_7610_soldier1"}) MERGE (b:Gun {id: "frame_7610_gun1"}) MERGE (a)-[:HOLDING]->(b)
+MERGE (a:Gun {id: "frame_7610_gun1"}) MERGE (b:Checkpoint {id: "frame_7610_checkpoint1"}) MERGE (a)-[:LOOKING AT]->(b)
+MERGE (a:Soldier {id: "frame_7640_dead_soldier"}) MERGE (b:Checkpoint {id: "frame_7640_checkpoint"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_7650_soldier_1"}) MERGE (b:Checkpoint {id: "frame_7650_checkpoint_1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_7660_soldier_1"}) MERGE (b:Vehicle {id: "frame_7660_vehicle_1"}) MERGE (a)-[:NEAR]->(b)
+MERGE (a:Soldier {id: "frame_8690_soldier1"}) MERGE (b:Gun {id: "frame_8690_gun1"}) MERGE (a)-[:HOLDING]->(b)

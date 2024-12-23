@@ -1,0 +1,22 @@
+services:
+  neo4j:
+    container_name: neo4j526
+    image: neo4j:5.26
+    ports:
+      - 8474:7474
+      - 8687:7687
+    environment:
+      - NEO4J_AUTH=neo4j/${NEO4J_PASSWORD}
+      - NEO4J_apoc_export_file_enabled=true
+      - NEO4J_apoc_import_file_enabled=true
+      - NEO4J_apoc_import_file_use__neo4j__config=true
+      - NEO4J_PLUGINS=["apoc"]
+    volumes:
+      - /disk3/eric/neo4j_db/data:/data
+      - /disk3/eric/neo4j_db/logs:/logs
+      - /disk3/eric/neo4j_db/import:/var/lib/neo4j/import
+      - /disk3/eric/neo4j_db/plugins:/plugins
+    
+
+
+#      - NEO4J_PLUGINS=["apoc", "graph-data-science"]
